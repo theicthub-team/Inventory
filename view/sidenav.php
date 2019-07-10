@@ -7,7 +7,7 @@
         <!-- Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
             <div class="sidebar-brand-icon rotate-n-15">
-                <img src="./assets/img/logo.png">
+                <img src="assets/img/logo.png">
             </div>
             <div class="sidebar-brand-text mx-3 text-white font-weight-bold text-uppercase">Inventory Hub</div>
         </a>
@@ -28,8 +28,7 @@
                 <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="media align-items-center">
               <span class="avatar avatar-sm rounded-circle">
-                <img alt="Image placeholder" src="assets/img/theme/team-1-800x800.jpg
-">
+                <img alt="Image placeholder" src="">
               </span>
                     </div>
                 </a>
@@ -37,24 +36,24 @@
                     <div class=" dropdown-header noti-title">
                         <h6 class="text-overflow m-0">Welcome!</h6>
                     </div>
-                    <a href="./examples/profile.html" class="dropdown-item">
+                    <a href="#" class="dropdown-item">
                         <i class="ni ni-single-02"></i>
                         <span>My profile</span>
                     </a>
-                    <a href="./examples/profile.html" class="dropdown-item">
+                    <a href="#" class="dropdown-item">
                         <i class="ni ni-settings-gear-65"></i>
                         <span>Settings</span>
                     </a>
-                    <a href="./examples/profile.html" class="dropdown-item">
+                    <a href="#" class="dropdown-item">
                         <i class="ni ni-calendar-grid-58"></i>
                         <span>Activity</span>
                     </a>
-                    <a href="./examples/profile.html" class="dropdown-item">
+                    <a href="#" class="dropdown-item">
                         <i class="ni ni-support-16"></i>
                         <span>Support</span>
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a href="#!" class="dropdown-item">
+                    <a href="#" class="dropdown-item">
                         <i class="ni ni-user-run"></i>
                         <span>Logout</span>
                     </a>
@@ -68,7 +67,7 @@
                 <div class="row">
                     <div class="col-6 collapse-brand">
                         <a href="#">
-                            <img src="#">
+
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
