@@ -106,7 +106,7 @@
                         <i class="ni ni-planet text-blue"></i> Inventory
                     </a>
                 </li>
-                
+
 
                 <li class="nav-item">
                     <a class="nav-link " href="#">

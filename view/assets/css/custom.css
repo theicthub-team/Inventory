@@ -1,10 +1,23 @@
 .main-content .navbar-top {
-    background-color: #6772e5;
+    background-color: white;
 }
 .navbar{
-    padding: 0rem 0rem;
+    padding: 5rem 4rem;
 }
 
 .layout-top {
     padding-top: 8rem !important;
+}
+.nav-link {
+
+    color: white;
+}
+.nav-link  active {
+    color: white;
+}
+
+.btn-icon-only.btn {
+    width: 2rem;
+    height: 2rem;
+    border-color: darkblue;
 }
