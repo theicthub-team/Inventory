@@ -1,12 +1,15 @@
-<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-gradient-dark" id="sidenav-main">
     <div class="container-fluid">
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="navbar-brand pt-0" href="../index.html">
-            <img src="assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <img src="./assets/img/logo.png">
+            </div>
+            <div class="sidebar-brand-text mx-3 text-white font-weight-bold text-uppercase">Inventory Hub</div>
         </a>
         <!-- User -->
         <ul class="nav align-items-center d-md-none">
@@ -64,8 +67,8 @@
             <div class="navbar-collapse-header d-md-none">
                 <div class="row">
                     <div class="col-6 collapse-brand">
-                        <a href="../index.html">
-                            <img src="../assets/img/brand/blue.png">
+                        <a href="#">
+                            <img src="#">
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
@@ -77,7 +80,7 @@
                 </div>
             </div>
             <!-- Form -->
-            <form class="mt-4 mb-3 d-md-none">
+            <form class="mt-4 mb-3 d-sm-none">
                 <div class="input-group input-group-rounded input-group-merge">
                     <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
                     <div class="input-group-prepend">
@@ -90,37 +93,39 @@
             <!-- Navigation -->
             <ul class="navbar-nav">
                 <li class="nav-item  class=" active" ">
-                <a class=" nav-link " href=" ../index.html"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
+                <a class=" nav-link " href=" #"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  active " href="../examples/icons.html">
-                        <i class="ni ni-planet text-blue"></i> Icons
+                    <a class="nav-link " href="#">
+                        <i class="ni ni-single-02 text-yellow"></i> Contact
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="../examples/maps.html">
-                        <i class="ni ni-pin-3 text-orange"></i> Maps
+                    <a class="nav-link  active text-white" href="#">
+                        <i class="ni ni-planet text-blue"></i> Inventory
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#">
+                        <i class="ni ni-bullet-list-67 text-red"></i> Invoices
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="../examples/profile.html">
-                        <i class="ni ni-single-02 text-yellow"></i> User profile
+                    <a class="nav-link" href="#">
+                        <i class="ni ni-key-25 text-info"></i> Sales Order
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="../examples/tables.html">
-                        <i class="ni ni-bullet-list-67 text-red"></i> Tables
+                    <a class="nav-link" href="#">
+                        <i class="ni ni-key-25 text-info"></i> Purchase Order
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../examples/login.html">
-                        <i class="ni ni-key-25 text-info"></i> Login
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../examples/register.html">
-                        <i class="ni ni-circle-08 text-pink"></i> Register
+                    <a class="nav-link" href="#">
+                        <i class="ni ni-circle-08 text-pink"></i> Help Center
                     </a>
                 </li>
             </ul>
@@ -130,19 +135,20 @@
             <h6 class="navbar-heading text-muted">Documentation</h6>
             <!-- Navigation -->
             <ul class="navbar-nav mb-md-3">
+
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
-                        <i class="ni ni-spaceship"></i> Getting started
+                    <a class="nav-link" href="#">
+                        <i class="ni ni-palette"></i> Settings
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
-                        <i class="ni ni-palette"></i> Foundation
+                    <a class="nav-link" href="#">
+                        <i class="ni ni-spaceship"></i> Chat Room
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
-                        <i class="ni ni-ui-04"></i> Components
+                    <a class="nav-link" href="#">
+                        <i class="ni ni-ui-04"></i> Calendar
                     </a>
                 </li>
             </ul>
