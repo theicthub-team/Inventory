@@ -1,29 +1,22 @@
-<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-gradient-dark" id="sidenav-main">
+<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-dark" id="sidenav-main">
     <div class="container-fluid">
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
-            <div class="sidebar-brand-icon rotate-n-15">
-                <img src="assets/img/logo.png">
-            </div>
-            <div class="sidebar-brand-text mx-3 text-white font-weight-bold text-uppercase">Inventory Hub</div>
-        </a>
+        <div class="float-md-left" style="padding-top: 5%">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <img src="assets/img/logo.png">
+                </div>
+                <div class="sidebar-brand-text mx-3 text-white font-weight-bold text-uppercase">Inventory Hub</div>
+            </a>
+        </div>
+
         <!-- User -->
         <ul class="nav align-items-center d-md-none">
-            <li class="nav-item dropdown">
-                <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="ni ni-bell-55"></i>
-                </a>
-                <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
+
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="media align-items-center">
@@ -101,7 +94,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  active text-white" href="#">
+                    <a class="nav-link" href="#">
                         <i class="ni ni-planet text-blue"></i> Inventory
                     </a>
                 </li>
