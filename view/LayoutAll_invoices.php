@@ -25,7 +25,7 @@
                         <div class="card-header border-0">
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <h3 class="mb-0">Contact List</h3>
+                                    <h3 class="mb-0">All Invoices</h3>
                                 </div>
                                 <div class="col text-right">
                                     <a href="layoutNewContact.php" class="btn btn-sm btn-primary">Add New</a>
@@ -35,9 +35,12 @@
                                         <i class="fas fa-ellipsis-v"></i>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                        <a class="dropdown-item" href="#">Edit </a>
-                                        <a class="dropdown-item" href="#">Remove</a>
-                                        <a class="dropdown-item" href="#">Check</a>
+                                        <a class="dropdown-item" href="#">Created Time</a>
+                                        <a class="dropdown-item" href="#">Last Modified Time</a>
+                                        <a class="dropdown-item" href="#">Date</a>
+                                        <a class="dropdown-item" href="#">Expected Shipment Date </a>
+                                        <a class="dropdown-item" href="#">Import Sales Order</a>
+                                        <a class="dropdown-item" href="#">Export Sales Order</a>
                                     </div>
                                 </div>
                             </div>
@@ -47,221 +50,313 @@
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                 <tr>
-                                    <th scope="col">Customer/Vendor Contact List</th>
-                                    <th scope="col">Transaction History</th>
-                                    <th scope="col">Contact Preview</th>
-                                    <th scope="col">Invoice/Billing History</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Company Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Work Phone</th>
+                                    <th scope="col">Receivable</th>
+                                    <th scope="col">Payable</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <th scope="row">
-                                        /argon/
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        4,569
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        340
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/index.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        3,985
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        319
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/charts.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        3,513
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        294
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        36,49%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/tables.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        2,050
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        147
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        50,87%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/profile.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        1,795
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        190
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        4,569
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        340
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/index.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        3,985
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        319
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/charts.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        3,513
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        294
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        36,49%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/tables.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        2,050
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        147
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        50,87%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/profile.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        1,795
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        190
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        4,569
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        340
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/index.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        3,985
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        319
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/charts.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        3,513
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        294
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        36,49%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/tables.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        2,050
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        147
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        50,87%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/profile.html
+                                        Mosiur Rahaman
                                     </th>
                                     <td>
-                                        1,795
+                                        Pran RFL
                                     </td>
                                     <td>
-                                        190
+                                        abd@xyz.com
                                     </td>
                                     <td>
-                                        46,53%
+                                        01xxxxxxxxx
+                                    </td>
+                                    <td>
+                                        3425
+                                    </td>
+                                    <td>
+                                        5683
                                     </td>
                                 </tr>
                                 </tbody>
@@ -271,15 +366,18 @@
                 </div>
             </div>
 
-                <!-- end of main content-->
+            <!-- end of main content-->
 
-            </div>
         </div>
-
-
+    </div>
 
 
 </div>
+
+
+
+
 <?php include 'footer.php'; ?>
+
 
 

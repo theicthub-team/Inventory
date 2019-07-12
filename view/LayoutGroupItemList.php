@@ -25,7 +25,7 @@
                         <div class="card-header border-0">
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <h3 class="mb-0">Contact List</h3>
+                                    <h3 class="mb-0">Group Item List</h3>
                                 </div>
                                 <div class="col text-right">
                                     <a href="layoutNewContact.php" class="btn btn-sm btn-primary">Add New</a>
@@ -35,9 +35,12 @@
                                         <i class="fas fa-ellipsis-v"></i>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                        <a class="dropdown-item" href="#">Edit </a>
-                                        <a class="dropdown-item" href="#">Remove</a>
-                                        <a class="dropdown-item" href="#">Check</a>
+                                        <a class="dropdown-item" href="#">Created Time</a>
+                                        <a class="dropdown-item" href="#">Last Modified Time</a>
+                                        <a class="dropdown-item" href="#">Date</a>
+                                        <a class="dropdown-item" href="#">Expected Shipment Date </a>
+                                        <a class="dropdown-item" href="#">Import Sales Order</a>
+                                        <a class="dropdown-item" href="#">Export Sales Order</a>
                                     </div>
                                 </div>
                             </div>
@@ -47,221 +50,268 @@
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                 <tr>
-                                    <th scope="col">Customer/Vendor Contact List</th>
-                                    <th scope="col">Transaction History</th>
-                                    <th scope="col">Contact Preview</th>
-                                    <th scope="col">Invoice/Billing History</th>
+                                    <th scope="col">Item Name</th>
+                                    <th scope="col">SKU</th>
+                                    <th scope="col">Purchase Price(BDT)</th>
+                                    <th scope="col">Selling Price(BDT)</th>
+                                    <th scope="col">Reorder Level</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <th scope="row">
-                                        /argon/
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        4,569
+                                        M007FKU
                                     </td>
                                     <td>
-                                        340
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        Samsung Note 9
+                                    </th>
+                                    <td>
+                                        M007FKU
+                                    </td>
+                                    <td>
+                                        45000
+                                    </td>
+                                    <td>
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/index.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        3,985
+                                        M007FKU
                                     </td>
                                     <td>
-                                        319
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/charts.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        3,513
+                                        M007FKU
                                     </td>
                                     <td>
-                                        294
+                                        45000
                                     </td>
                                     <td>
-                                        36,49%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/tables.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        2,050
+                                        M007FKU
                                     </td>
                                     <td>
-                                        147
+                                        45000
                                     </td>
                                     <td>
-                                        50,87%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/profile.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        1,795
+                                        M007FKU
                                     </td>
                                     <td>
-                                        190
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        4,569
+                                        M007FKU
                                     </td>
                                     <td>
-                                        340
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/index.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        3,985
+                                        M007FKU
                                     </td>
                                     <td>
-                                        319
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/charts.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        3,513
+                                        M007FKU
                                     </td>
                                     <td>
-                                        294
+                                        45000
                                     </td>
                                     <td>
-                                        36,49%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/tables.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        2,050
+                                        M007FKU
                                     </td>
                                     <td>
-                                        147
+                                        45000
                                     </td>
                                     <td>
-                                        50,87%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/profile.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        1,795
+                                        M007FKU
                                     </td>
                                     <td>
-                                        190
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        4,569
+                                        M007FKU
                                     </td>
                                     <td>
-                                        340
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/index.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        3,985
+                                        M007FKU
                                     </td>
                                     <td>
-                                        319
+                                        45000
                                     </td>
                                     <td>
-                                        46,53%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/charts.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        3,513
+                                        M007FKU
                                     </td>
                                     <td>
-                                        294
+                                        45000
                                     </td>
                                     <td>
-                                        36,49%
+                                        50000
+                                    </td>
+                                    <td>
+                                        Highly
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        /argon/tables.html
+                                        Samsung Note 9
                                     </th>
                                     <td>
-                                        2,050
+                                        M007FKU
                                     </td>
                                     <td>
-                                        147
+                                        45000
                                     </td>
                                     <td>
-                                        50,87%
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        /argon/profile.html
-                                    </th>
-                                    <td>
-                                        1,795
+                                        50000
                                     </td>
                                     <td>
-                                        190
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Highly
                                     </td>
                                 </tr>
                                 </tbody>
@@ -271,15 +321,19 @@
                 </div>
             </div>
 
-                <!-- end of main content-->
+            <!-- end of main content-->
 
-            </div>
         </div>
-
-
+    </div>
 
 
 </div>
+
+
+
+
 <?php include 'footer.php'; ?>
+
+
 
 

@@ -120,11 +120,6 @@
         <!-- end of main content-->
     </div>
 
-
-
-    <!-- end of main content-->
-
-
 </div>
 <?php include 'footer.php'; ?>
 

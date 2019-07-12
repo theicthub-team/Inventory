@@ -25,7 +25,7 @@
                         <div class="card-header border-0">
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <h3 class="mb-0">Contact List</h3>
+                                    <h3 class="mb-0">All Warehouse List</h3>
                                 </div>
                                 <div class="col text-right">
                                     <a href="layoutNewContact.php" class="btn btn-sm btn-primary">Add New</a>
@@ -47,10 +47,9 @@
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                 <tr>
-                                    <th scope="col">Customer/Vendor Contact List</th>
-                                    <th scope="col">Transaction History</th>
-                                    <th scope="col">Contact Preview</th>
-                                    <th scope="col">Invoice/Billing History</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">location</th>
+                                    <th scope="col">Status</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -59,209 +58,178 @@
                                         /argon/
                                     </th>
                                     <td>
-                                        4,569
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        340
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/index.html
                                     </th>
+                                    </th>
                                     <td>
-                                        3,985
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        319
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/charts.html
                                     </th>
+                                    </th>
                                     <td>
-                                        3,513
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        294
-                                    </td>
-                                    <td>
-                                        36,49%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/tables.html
                                     </th>
+                                    </th>
                                     <td>
-                                        2,050
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        147
-                                    </td>
-                                    <td>
-                                        50,87%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/profile.html
                                     </th>
+                                    </th>
                                     <td>
-                                        1,795
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        190
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/
                                     </th>
+                                    </th>
                                     <td>
-                                        4,569
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        340
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/index.html
                                     </th>
+                                    </th>
                                     <td>
-                                        3,985
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        319
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/charts.html
                                     </th>
+                                    </th>
                                     <td>
-                                        3,513
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        294
-                                    </td>
-                                    <td>
-                                        36,49%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/tables.html
                                     </th>
+                                    </th>
                                     <td>
-                                        2,050
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        147
-                                    </td>
-                                    <td>
-                                        50,87%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/profile.html
                                     </th>
+                                    </th>
                                     <td>
-                                        1,795
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        190
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/
                                     </th>
+                                    </th>
                                     <td>
-                                        4,569
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        340
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/index.html
                                     </th>
+                                    </th>
                                     <td>
-                                        3,985
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        319
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/charts.html
                                     </th>
+                                    </th>
                                     <td>
-                                        3,513
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        294
-                                    </td>
-                                    <td>
-                                        36,49%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/tables.html
                                     </th>
+                                    </th>
                                     <td>
-                                        2,050
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        147
-                                    </td>
-                                    <td>
-                                        50,87%
+                                        Occupied
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         /argon/profile.html
                                     </th>
+                                    </th>
                                     <td>
-                                        1,795
+                                        Mohammadpur
                                     </td>
                                     <td>
-                                        190
-                                    </td>
-                                    <td>
-                                        46,53%
+                                        Occupied
                                     </td>
                                 </tr>
                                 </tbody>
@@ -271,10 +239,10 @@
                 </div>
             </div>
 
-                <!-- end of main content-->
+            <!-- end of main content-->
 
-            </div>
         </div>
+    </div>
 
 
 
