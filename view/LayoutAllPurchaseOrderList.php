@@ -28,7 +28,7 @@
                                     <h3 class="mb-0">All Purchase Order List</h3>
                                 </div>
                                 <div class="col text-right">
-                                    <a href="layoutNewContact.php" class="btn btn-sm btn-primary">Add New</a>
+                                    <a href="LayoutNewPurchaseOrder.php" class="btn btn-sm btn-primary">Add New</a>
                                 </div>
                                 <div class="dropdown">
                                     <a class="btn btn-sm btn-icon-only text-light border-primary" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -89,35 +89,42 @@
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">
+                    <a class="nav-link " href="LayoutAllContact.php">
                         <i class="ni ni-single-02 text-yellow"></i> Contact
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
                         <i class="ni ni-planet text-blue"></i> Inventory
                     </a>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="LayoutItemList.php">Items</a>
+                            <a class="collapse-item" href="LayoutGroupItemList.php">Group Item</a>
+                            <a class="collapse-item" href="LayoutStockList.php">Stock</a>
+                        </div>
+                    </div>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link " href="#">
+                    <a class="nav-link " href="LayoutAll_invoices.php">
                         <i class="ni ni-bullet-list-67 text-red"></i> Invoices
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="LayoutAllSalesOrder.php">
                         <i class="ni ni-key-25 text-info"></i> Sales Order
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="LayoutAllPurchaseOrderList.php">
                         <i class="ni ni-key-25 text-info"></i> Purchase Order
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="ni ni-circle-08 text-pink"></i> Help Center
+                    <a class="nav-link" href="LayoutWareHouseList.php">
+                        <i class="ni ni-circle-08 text-pink"></i> Warehouse
                     </a>
                 </li>
             </ul>
