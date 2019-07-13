@@ -5,7 +5,10 @@
  * Date: 3/6/19
  * Time: 5:48 PM
  */
+if(!isset($_SESSION)) {
+    session_start();
 
+}
 class Connection{
     function getConnection(){
         $host       = "localhost";

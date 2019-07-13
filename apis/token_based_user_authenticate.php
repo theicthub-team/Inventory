@@ -8,60 +8,9 @@
 
 // include db connect class
 require_once __DIR__ . '/Connection.php';
-
+require './generateToken.php';
 class Authentication{
-    function token_generate($user_id, $conn)
-    {
 
-
-        $token = bin2hex(random_bytes(20));
-
-        $get_token = "select * from user_token where user_id ='$user_id'";
-        $getJson = $conn->prepare($get_token);
-        $getJson->execute();
-        $result = $getJson->fetchAll(PDO::FETCH_ASSOC);
-
-        if(count($result) > 0) {
-            $sql = "UPDATE user_token SET user_token_no ='$token' WHERE user_id ='$user_id'";
-
-            try {
-                $getJson = $conn->prepare($sql);
-                $response = $getJson->execute();
-                //echo $response;
-                //die();
-            }
-            catch (PDOException $e) {
-                echo "Error : " . $e->getMessage();
-
-            }
-
-
-
-
-
-        }
-        else{
-            $sql = "INSERT INTO user_token (user_token_id, user_id, user_token_no, user_token_creation_time, user_token_modification_time)
-            VALUES (0, '$user_id', '$token', now(), now())";
-
-            try {
-                $getJson = $conn->prepare($sql);
-                $response = $getJson->execute();
-                //echo $response;
-                //die();
-            }
-            catch (PDOException $e) {
-                echo "Error : " . $e->getMessage();
-
-            }
-
-
-
-
-        }
-        return $token;
-
-    }
     function authenticate(){
         $connection = new Connection();
         $conn = $connection->getConnection();
@@ -98,9 +47,10 @@ class Authentication{
                                     'user_type_access_level'=>$data['user_type_access_level']
 
                                 ));
-
-                            $authenticate = new Authentication();
-                            $token = $authenticate->token_generate($data['user_id'],$conn);
+                            //echo "token";
+                            //die();
+                            $generate = new generateToken();
+                            $token = $generate->token_generate($data['user_id'],$conn);
 
                            break;
                         }
