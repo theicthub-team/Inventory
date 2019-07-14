@@ -33,7 +33,7 @@ if(count($result) > 0) {
 
     $_SESSION['loggedIn']=true;
     $_SESSION['token']=$token;
-    $_SESSION['user_id']=$user_id;
+    //$_SESSION['user_id']=$user_id;
     $_SESSION['user_type_Name']=$user_type_Name;
     $_SESSION['user_type_access_level']=$user_type_access_level;
     $_SESSION['user_Status']=$user_Status;
