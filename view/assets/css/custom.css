@@ -11,7 +11,7 @@ body{
     background-color: #F3F3F3;
 }
 .navbar{
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .layout-top {
@@ -20,9 +20,7 @@ body{
 .nav-link {
     color: white;
 }
-.nav-link  active {
-    color: white;
-}
+
 
 .btn-icon-only.btn {
     width: 2rem;
