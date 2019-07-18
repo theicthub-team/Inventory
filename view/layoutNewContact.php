@@ -4,22 +4,22 @@
 <div class="main-content">
     <?php include 'navbar.php'; ?>
 
-    <!-- main content here -->
 
-<!--    <div class="header pt-5">-->
-<!--        <div class="container-fluid">-->
-<!--            <div class="header-body">-->
-<!--                <!-- Card stats -->-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="header pt-5">
+        <div class="container-fluid">
+            <div class="header-body">
+                <!-- Card stats -->
+
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid mt--7 pb-8 pt-5 pt-md-8">
-        <!-- main content here -->
+
 
         <div class="row box_container">
             <div class="col">
+                <!-- main content here -->
                 <div class="card shadow">
                     <div class="card-header border-0">
                         <h3 class="mb-0 font-weight-bold text-uppercase">New Contact</h3>
@@ -29,7 +29,7 @@
                 <div class="card-body">
 
                     <form>
-<!--                        Contact Type-->
+                        <!--                        Contact Type-->
                         <h6 class="heading-small text-muted mb-4 ">Contact Type</h6>
 
                         <hr class="my-4" />
@@ -114,13 +114,22 @@
 
                     </form>
                 </div>
+
+                <!-- end of main content-->
+
             </div>
         </div>
 
-        <!-- end of main content-->
+
     </div>
 
-</div>
-<?php include 'footer.php'; ?>
+
+
+
+    <?php include 'footer.php'; ?>
+
+
+
+
 
 
