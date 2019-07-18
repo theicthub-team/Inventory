@@ -22,7 +22,7 @@
                 <!-- main content here -->
                 <div class="">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-md-4">
                             <div class="col-xl-20 mb-5 mb-xl-0">
                                 <div class="card shadow">
                                     <div class="card-header border-0">
@@ -231,7 +231,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm">
+                        <div class="col-md-4">
                             <div class="col-xl-20 mb-5 mb-xl-0">
                                 <div class="card shadow">
                                     <div class="card-header border-0">
@@ -440,7 +440,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm">
+                        <div class="col-md-4">
                             <div class="col-xl-20 mb-5 mb-xl-0">
                                 <div class="card shadow">
                                     <div class="card-header border-0">

@@ -1,7 +1,8 @@
 <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-dark" id="sidenav-main">
     <div class="container-fluid">
         <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main"
+                aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
@@ -18,7 +19,8 @@
         <ul class="nav align-items-center d-md-none">
 
             <li class="nav-item dropdown">
-                <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
                     <div class="media align-items-center">
               <span class="avatar avatar-sm rounded-circle">
                 <img alt="Image placeholder" src="">
@@ -64,7 +66,9 @@
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false"
+                                aria-label="Toggle sidenav">
                             <span></span>
                             <span></span>
                         </button>
@@ -74,7 +78,8 @@
             <!-- Form -->
             <form class="mt-4 mb-3 d-sm-none">
                 <div class="input-group input-group-rounded input-group-merge">
-                    <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
+                    <input type="search" class="form-control form-control-rounded form-control-prepended"
+                           placeholder="Search" aria-label="Search">
                     <div class="input-group-prepend">
                         <div class="input-group-text">
                             <span class="fa fa-search"></span>
@@ -84,7 +89,8 @@
             </form>
             <!-- Navigation -->
             <ul class="navbar-nav">
-                <li class="nav-item  class=" active" ">
+                <li class="nav-item  class=" active
+                " ">
                 <a class=" nav-link " href=" #"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
                 </a>
                 </li>
@@ -94,16 +100,19 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                       aria-expanded="true" aria-controls="collapseUtilities">
                         <i class="ni ni-planet text-blue"></i> Inventory
                     </a>
-                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="LayoutItemList.php">Items</a>
-                            <a class="collapse-item" href="LayoutGroupItemList.php">Group Item</a>
-                            <a class="collapse-item" href="LayoutStockList.php">Stock</a>
-                        </div>
-                    </div>
+                </li>
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                     data-parent="#collapseUtilities">
+
+                    <li class="nav-item"><a class="nav-link " href="LayoutItemList.php">Items</a></li>
+                    <li class="nav-item"><a class="nav-link " href="LayoutGroupItemList.php">Group Item</a></li>
+                    <li class="nav-item"><a class="nav-link " href="LayoutStockList.php">Stock</a></li>
+
+                </div>
                 </li>
 
 
@@ -127,30 +136,20 @@
                         <i class="ni ni-circle-08 text-pink"></i> Warehouse
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="LayoutWareHouseList.php">
+                        <i class="ni ni-circle-08 text-pink"></i> Return
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="LayoutWareHouseList.php">
+                        <i class="ni ni-circle-08 text-pink"></i> Shipping
+                    </a>
+                </li>
             </ul>
-            <!-- Divider -->
-            <hr class="my-3">
-            <!-- Heading -->
-            <h6 class="navbar-heading text-muted">Documentation</h6>
-            <!-- Navigation -->
-            <ul class="navbar-nav mb-md-3">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="ni ni-palette"></i> Settings
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="ni ni-spaceship"></i> Chat Room
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="ni ni-ui-04"></i> Calendar
-                    </a>
-                </li>
-            </ul>
+
+
         </div>
     </div>
 </nav>
