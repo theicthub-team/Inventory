@@ -51,6 +51,10 @@ class getBrand{
             }
 
         }
+        else{
+            echo json_encode(array($status=>0, $message=>"Token Not Found"));
+            die();
+        }
 
 
     }
