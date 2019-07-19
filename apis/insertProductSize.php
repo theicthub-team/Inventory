@@ -24,7 +24,7 @@ class insertProductSizeClass{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $insert_product_size = "INSERT INTO product_size (product_size_id,product_size_name,product_size_creation_time,product_size_modification_time) VALUES (0, '$product_size_name', now(), now())";
+                $insert_product_size = "INSERT INTO product_size (product_size_name,product_size_creation_time,product_size_modification_time) VALUES ('$product_size_name', now(), now())";
 
                 $result =$conn->exec($insert_product_size);
 
