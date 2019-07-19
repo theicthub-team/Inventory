@@ -45,7 +45,38 @@ class getStockClass{
                                 'stock_warehouse' => $data['stock_warehouse'],
                                 'stock_status' => $data['stock_status'],
                                 'stock_creation_time' => $data['stock_creation_time'],
-                                'stock_modification_time' => $data['stock_modification_time']
+                                'stock_modification_time' => $data['stock_modification_time'],
+
+                                'product_id' => $data['product_id'],
+                                'product_name' => $data['product_name'],
+                                'product_category_id' => $data['product_category_id'],
+                                'product_brand_id' => $data['product_brand_id'],
+                                'product_batch_id' => $data['product_batch_id'],
+                                'product_creation_time' => $data['product_creation_time'],
+                                'product_modification_time' => $data['product_modification_time'],
+
+                                'product_quantity_unit_id' => $data['product_quantity_unit_id'],
+                                'product_quantity_unit_name' => $data['product_quantity_unit_name'],
+                                'product_quantity_unit_creation_time' => $data['product_quantity_unit_creation_time'],
+                                'product_quantity_unit_modification_time' => $data['product_quantity_unit_modification_time'],
+
+                                'product_color_id' => $data['product_color_id'],
+                                'product_color_name' => $data['product_color_name'],
+                                'product_color_creation_time' => $data['product_color_creation_time'],
+                                'product_color_modification_time' => $data['product_color_modification_time'],
+
+                                'product_size_id' => $data['product_size_id'],
+                                'product_size_name' => $data['product_size_name'],
+                                'product_size_creation_time' => $data['product_size_creation_time'],
+                                'product_size_modification_time' => $data['product_size_modification_time'],
+
+                                'warehouse_id' => $data['warehouse_id'],
+                                'warehouse_name' => $data['warehouse_name'],
+                                'warehouse_address' => $data['warehouse_address'],
+                                'warehouse_lat' => $data['warehouse_lat'],
+                                'warehouse_long' => $data['warehouse_long'],
+                                'warehouse_creation_time' => $data['warehouse_creation_time'],
+                                'warehouse_modification_time' => $data['warehouse_modification_time']
                             ));
                     }
                     echo json_encode(array("stock"=>$response,$status=>1, $message=>"All Stock Size"));            //  On Successful Login redirects to home.php

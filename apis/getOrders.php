@@ -43,7 +43,22 @@ class getOrdersClass{
                                 'orders_delivery_date' => $data['orders_delivery_date'],
                                 'orders_discount' => $data['orders_discount'],
                                 'orders_creation_time' => $data['orders_creation_time'],
-                                'orders_modification_time' => $data['orders_modification_time']
+                                'orders_modification_time' => $data['orders_modification_time'],
+
+                                'cart_id' => $data['cart_id'],
+                                'cart_stock_id' => $data['cart_stock_id'],
+                                'card_product_quantity' => $data['card_product_quantity'],
+                                'cart_creation_time' => $data['cart_creation_time'],
+                                'cart_modification_time' => $data['cart_modification_time'],
+
+                                'contact_id' => $data['contact_id'],
+                                'contact_type' => $data['contact_type'],
+                                'contact_name' => $data['contact_name'],
+                                'contact_address' => $data['contact_address'],
+                                'contact_designation' => $data['contact_designation'],
+                                'contact_mobile' => $data['contact_mobile'],
+                                'contact_creation_time' => $data['contact_creation_time'],
+                                'contact_modification_time' => $data['contact_modification_time']
                             ));
                     }
                     echo json_encode(array("orders"=>$response,$status=>1, $message=>"All Orders"));            //  On Successful Login redirects to home.php

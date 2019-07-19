@@ -40,7 +40,18 @@ class getUserClass{
                                 'user_creation_time' => $data['user_creation_time'],
                                 'user_modification_time' => $data['user_modification_time'],
                                 'user_designation_id' => $data['user_designation_id'],
-                                'user_type_id' => $data['user_type_id']
+                                'user_type_id' => $data['user_type_id'],
+
+                                'user_designation_id' => $data['user_designation_id'],
+                                'user_designation_Name' => $data['user_designation_Name'],
+                                'user_designation_creation_time' => $data['user_designation_creation_time'],
+                                'user_designation_modification_time' => $data['user_designation_modification_time'],
+
+                                'user_type_id' => $data['user_type_id'],
+                                'user_type_Name' => $data['user_type_Name'],
+                                'user_type_access_level' => $data['user_type_access_level'],
+                                'user_type_creation_time' => $data['user_type_creation_time'],
+                                'user_type_modification_time' => $data['user_type_modification_time']
 
                             ));
                     }

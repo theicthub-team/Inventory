@@ -34,7 +34,7 @@ class getProductColorClass{
                                 'product_color_id' => $data['product_color_id'],
                                 'product_color_name' => $data['product_color_name'],
                                 'product_color_creation_time' => $data['product_color_creation_time'],
-                                'product_color_modification_time' => $data['product_color_modification_time'],
+                                'product_color_modification_time' => $data['product_color_modification_time']
                             ));
                     }
                     echo json_encode(array("product_color"=>$response,$status=>1, $message=>"All Product Color"));            //  On Successful Login redirects to home.php
