@@ -1,4 +1,4 @@
-contact_id<?php
+<?php
 /**
  * Created by PhpStorm.
  * User: abdullah
@@ -19,6 +19,7 @@ class updateContactClass{
         $status="status";
         $message = "message";
         $token   = $_POST['token'];
+        $contact_id = $_POST['contact_id'];
         $contact_type = $_POST['contact_type'];
         $contact_name = $_POST['contact_name'];
         $contact_address = $_POST['contact_address'];
@@ -28,7 +29,7 @@ class updateContactClass{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $get_contact = "UPDATE contact SET contact_type = '$contact_type', contact_name = '$contact_name', contact_address = '$contact_address', contact_designation = '$contact_designation', contact_mobile = '$contact_mobile', contact_creation_time = '$contact_creation_time', contact_modification_time = '$contact_modification_time' WHERE contact_id='$contact_id'";
+                $get_contact = "UPDATE contact SET contact_type = '$contact_type', contact_name = '$contact_name', contact_address = '$contact_address', contact_designation = '$contact_designation', contact_mobile = '$contact_mobile' WHERE contact_id='$contact_id'";
 
                 // Prepare statement
                 $stmt = $conn->prepare($get_contact);
