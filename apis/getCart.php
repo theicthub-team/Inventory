@@ -35,7 +35,23 @@ class getCartClass{
                                 'cart_stock_id' => $data['cart_stock_id'],
                                 'card_product_quantity' => $data['card_product_quantity'],
                                 'cart_creation_time' => $data['cart_creation_time'],
-                                'cart_modification_time' => $data['cart_modification_time']
+                                'cart_modification_time' => $data['cart_modification_time'],
+
+                                'stock_id' => $data['stock_id'],
+                                'stock_product_id' => $data['stock_product_id'],
+                                'stock_product_quantity_unit' => $data['stock_product_quantity_unit'],
+                                'stock_product_quantity' => $data['stock_product_quantity'],
+                                'stock_product_purchase_price' => $data['stock_product_purchase_price'],
+                                'stock_product_sales_price' => $data['stock_product_sales_price'],
+                                'stock_product_expire_date' => $data['stock_product_expire_date'],
+                                'stock_product_color' => $data['stock_product_color'],
+                                'stock_product_size' => $data['stock_product_size'],
+                                'stock_product_height' => $data['stock_product_height'],
+                                'stock_product_weight' => $data['stock_product_weight'],
+                                'stock_warehouse' => $data['stock_warehouse'],
+                                'stock_status' => $data['stock_status'],
+                                'stock_creation_time' => $data['stock_creation_time'],
+                                'stock_modification_time' => $data['stock_modification_time']
 
                             ));
                     }
