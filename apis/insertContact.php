@@ -33,7 +33,7 @@ class insertContactClass{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $insert_contact = "INSERT INTO contact (contact_type, contact_name, contact_address, contact_designation, contact_mobile, contact_creation_time, contact_modification_time) VALUES ('$contact_type', '$contact_name', '$contact_address', '$contact_designation', '$contact_mobile', '$contact_creation_time', '$contact_modification_time', now(), now())";
+                $insert_contact = "INSERT INTO contact (contact_type, contact_name, contact_address, contact_designation, contact_mobile, contact_creation_time, contact_modification_time) VALUES ('$contact_type', '$contact_name', '$contact_address', '$contact_designation', '$contact_mobile', now(), now())";
 
                 $result =$conn->exec($insert_contact);
 
