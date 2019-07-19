@@ -1,4 +1,4 @@
-stock_id<?php
+<?php
 /**
  * Created by PhpStorm.
  * User: abdullah
@@ -37,7 +37,7 @@ class updateStockClass{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $get_stock = "UPDATE stock SET stock_product_id = '$stock_product_id',stock_product_quantity_unit = '$stock_product_quantity_unit',stock_product_quantity = '$stock_product_quantity',stock_product_purchase_price = '$stock_product_purchase_price',stock_product_sales_price = '$stock_product_sales_price',stock_product_expire_date = '$stock_product_expire_date',stock_product_color = '$stock_product_color',stock_product_size = '$stock_product_size',stock_product_height = '$stock_product_height',stock_product_weight = '$stock_product_weight',stock_warehouse = '$stock_warehouse',stock_status = '$stock_status', WHERE stock_id='$stock_id'";
+                $get_stock = "UPDATE stock SET stock_product_id = '$stock_product_id',stock_product_quantity_unit = '$stock_product_quantity_unit',stock_product_quantity = '$stock_product_quantity',stock_product_purchase_price = '$stock_product_purchase_price',stock_product_sales_price = '$stock_product_sales_price',stock_product_expire_date = '$stock_product_expire_date',stock_product_color = '$stock_product_color',stock_product_size = '$stock_product_size',stock_product_height = '$stock_product_height',stock_product_weight = '$stock_product_weight',stock_warehouse = '$stock_warehouse',stock_status = '$stock_status' WHERE stock_id='$stock_id'";
 
                 // Prepare statement
                 $stmt = $conn->prepare($get_stock);
