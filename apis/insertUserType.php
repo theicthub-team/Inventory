@@ -25,7 +25,7 @@ class insertUserTypeClass{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $insert_user_type = "INSERT INTO user_type (user_type_Name, user_type_access_level, user_type_creation_time, user_type_modification_time) VALUES ('$user_type_Name', '$user_type_access_level', '$user_type_creation_time', '$user_type_modification_time', now(), now())";
+                $insert_user_type = "INSERT INTO user_type (user_type_Name, user_type_access_level, user_type_creation_time, user_type_modification_time) VALUES ('$user_type_Name', '$user_type_access_level', now(), now())";
 
                 $result =$conn->exec($insert_user_type);
 
