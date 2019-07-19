@@ -9,9 +9,9 @@
 // include db connect class
 require_once __DIR__ . '/Connection.php';
 require './authenticateToken.php';
-class updateBrand{
+class insertProduct{
 
-    function updateAbrand(){
+    function insertAProduct(){
         $connection = new Connection();
         $conn = $connection->getConnection();
         //array for json response
@@ -19,27 +19,25 @@ class updateBrand{
         $status="status";
         $message = "message";
         $token   = $_POST['token'];
-        $brand_id   = $_POST['brand_id'];
-        $brand_name   = $_POST['brand_name'];
+        $product_name  = $_POST['product_name'];
+        $product_category_id   = $_POST['product_category_id'];
+        $product_brand_id   = $_POST['product_brand_id'];
+        $product_batch_id  = $_POST['product_batch_id'];
 
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $update_brand = "UPDATE brand SET brand_name='$brand_name' WHERE brand_id='$brand_id'";
+                $insert_product = "INSERT INTO product (product_id,product_name,product_category_id,product_brand_id,product_batch_id,product_creation_time,product_modification_time) VALUES (0, '$product_name', '$product_category_id', '$product_brand_id', '$product_batch_id', now(), now())";
 
-                // Prepare statement
-                $stmt = $conn->prepare($update_brand);
+                $result =$conn->exec($insert_product);
 
-                // execute the query
-                $stmt->execute();
+                if($result) {
 
-                if($stmt->rowCount()) {
-
-                    echo json_encode(array($status=>1, $message=>"Brands Updated"));            //  On Successful Login redirects to home.php
+                    echo json_encode(array($status=>1, $message=>"Product Added"));            //  On Successful Login redirects to home.php
                     die();
                 }
                 else{
-                    echo json_encode(array($status=>0, $message=>"Brand Not Updated"));
+                    echo json_encode(array($status=>0, $message=>"Product Not Added"));
                     die();
                 }
             }
@@ -59,8 +57,8 @@ class updateBrand{
 }
 if(isset($_POST['token']) )   // it checks whether the user clicked login button or not
 {
-    $brands = new updateBrand();
-    $brands->updateAbrand();
+    $product = new insertProduct();
+    $product->insertAProduct();
 }
 else
 {

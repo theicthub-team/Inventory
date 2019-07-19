@@ -9,9 +9,9 @@
 // include db connect class
 require_once __DIR__ . '/Connection.php';
 require './authenticateToken.php';
-class updateBrand{
+class updateProductQuantityUnit{
 
-    function updateAbrand(){
+    function updateAProductQuantityUnit(){
         $connection = new Connection();
         $conn = $connection->getConnection();
         //array for json response
@@ -19,27 +19,27 @@ class updateBrand{
         $status="status";
         $message = "message";
         $token   = $_POST['token'];
-        $brand_id   = $_POST['brand_id'];
-        $brand_name   = $_POST['brand_name'];
+        $product_quantity_unit_id   = $_POST['product_quantity_unit_id'];
+        $product_quantity_unit_name   = $_POST['product_quantity_unit_name'];
 
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $update_brand = "UPDATE brand SET brand_name='$brand_name' WHERE brand_id='$brand_id'";
+                $update_product_quantity_unit = "UPDATE product_quantity_unit SET product_quantity_unit_name='$product_quantity_unit_name' WHERE product_quantity_unit_id='$product_quantity_unit_id'";
 
                 // Prepare statement
-                $stmt = $conn->prepare($update_brand);
+                $stmt = $conn->prepare($update_product_quantity_unit);
 
                 // execute the query
                 $stmt->execute();
 
                 if($stmt->rowCount()) {
 
-                    echo json_encode(array($status=>1, $message=>"Brands Updated"));            //  On Successful Login redirects to home.php
+                    echo json_encode(array($status=>1, $message=>"Product Quantity Unit Updated"));            //  On Successful Login redirects to home.php
                     die();
                 }
                 else{
-                    echo json_encode(array($status=>0, $message=>"Brand Not Updated"));
+                    echo json_encode(array($status=>0, $message=>"Product Quantity Unit Not Updated"));
                     die();
                 }
             }
@@ -59,8 +59,8 @@ class updateBrand{
 }
 if(isset($_POST['token']) )   // it checks whether the user clicked login button or not
 {
-    $brands = new updateBrand();
-    $brands->updateAbrand();
+    $product_quantity_unit = new updateProductQuantityUnit();
+    $product_quantity_unit->updateAProductQuantityUnit();
 }
 else
 {
