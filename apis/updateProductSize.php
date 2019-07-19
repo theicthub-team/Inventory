@@ -1,4 +1,4 @@
-product_size_id<?php
+<?php
 /**
  * Created by PhpStorm.
  * User: abdullah
