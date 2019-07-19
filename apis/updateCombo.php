@@ -1,4 +1,4 @@
-combo_id<?php
+<?php
 /**
  * Created by PhpStorm.
  * User: abdullah
