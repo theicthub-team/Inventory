@@ -128,3 +128,14 @@ body{
     padding-left: 0px;
     padding-right: 0px;
 }
+/*new item start*/
+.fa-plus-square{
+    font-size: 30px;
+    margin-top: 35px;
+}
+.fa-chevron-down {
+    margin-left:190px;
+}
+.brand{
+    margin-left:210px;
+}
