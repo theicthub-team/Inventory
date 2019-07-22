@@ -24,10 +24,10 @@ class deleteBrand{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $get_brand = "Delete From brand WHERE brand_id='$brand_id'";
+                $delete_brand = "Delete From brand WHERE brand_id='$brand_id'";
 
                 // Prepare statement
-                $stmt = $conn->prepare($get_brand);
+                $stmt = $conn->prepare($delete_brand);
 
                 // execute the query
                 $stmt->execute();

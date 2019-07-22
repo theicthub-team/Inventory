@@ -107,7 +107,7 @@
                         </div>
                         <hr class="my-4" />
                         <!-- Save -->
-                        <div class="col text-right">
+                        <div class="col text-left">
                             <a href="LayoutAllContact.php" class="btn btn-md btn-primary">Add Contact</a>
                         </div>
 

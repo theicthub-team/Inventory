@@ -25,10 +25,10 @@ class updateBrand{
         if(!empty($token)) {
             $authenticate_token = new authenticateToken();
             if ($authenticate_token->tokenAuthentication($token, $conn)) {
-                $get_brand = "UPDATE brand SET brand_name='$brand_name' WHERE brand_id='$brand_id'";
+                $update_brand = "UPDATE brand SET brand_name='$brand_name' WHERE brand_id='$brand_id'";
 
                 // Prepare statement
-                $stmt = $conn->prepare($get_brand);
+                $stmt = $conn->prepare($update_brand);
 
                 // execute the query
                 $stmt->execute();
