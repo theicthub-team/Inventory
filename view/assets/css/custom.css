@@ -140,3 +140,7 @@ body{
 .brand{
     margin-left:210px;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}

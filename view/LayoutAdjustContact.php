@@ -58,7 +58,7 @@
                                             <tr>
                                                 <th scope="col">Check</th>
                                                 <th scope="col">Name</th>
-                                                <th scope="col">Company Name</th>
+
 
                                             </tr>
                                             </thead>
@@ -71,11 +71,11 @@
                                                     </div>
                                                 </td>
                                                 <th scope="row">
-                                                    <a href="#">Sadik Ahammed</a>
-                                                </th>
-                                                <td>
+                                                    <a href="#">Sadik Ahammed</a><br>
+
                                                     The ICT Hub
-                                                </td>
+                                                </th>
+
 
 
                                             </tr>
@@ -88,9 +88,6 @@
                                                 <th scope="row">
                                                     <a href="#">Muzahidul Islam</a>
                                                 </th>
-                                                <td>
-                                                    Samsung
-                                                </td>
 
                                             </tr>
                                             <tr>
@@ -103,9 +100,7 @@
                                                 <th scope="row">
                                                     <a href="#">Munjurina Azam Ema</a>
                                                 </th>
-                                                <td>
-                                                    City Bank
-                                                </td>
+
 
                                             </tr>
 
