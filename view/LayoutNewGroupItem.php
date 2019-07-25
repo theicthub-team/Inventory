@@ -88,22 +88,45 @@
                                     <tbody>
                                     <tr>
                                         <th scope="row">
-                                            <!--                                            /argon/-->
-                                            <div class="col-md-10">
-                                                <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Name" value="Name">
-                                            </div>
+                                            /argon/
 
                                         </th>
                                         <td>
-                                            <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                            <div class="col-md-6">
-                                                <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Quantity" value="2">
-                                            </div>
+                                            2
+                                        <td>
+                                            16000
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Price" value="670">
-                                            </div>
+                                            <i class="fas fa-check-square"></i>
+                                            <i class="fas fa-times-circle">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            /argon/
+
+                                        </th>
+                                        <td>
+                                            2
+                                        <td>
+                                            16000
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-check-square"></i>
+                                            <i class="fas fa-times-circle">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            /argon/
+
+                                        </th>
+                                        <td>
+                                            2
+                                        <td>
+                                            16000
                                         </td>
                                         <td>
                                             <i class="fas fa-check-square"></i>
@@ -135,61 +158,6 @@
                                             <i class="fas fa-times-circle">
 
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <!--                                            /argon/-->
-                                            <div class="col-md-10">
-                                                <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Name" value="Name">
-                                            </div>
-
-                                        </th>
-                                        <td>
-                                            <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                            <div class="col-md-6">
-                                                <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Quantity" value="2">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Price" value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <i class="fas fa-check-square"></i>
-                                            <i class="fas fa-times-circle">
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <!--                                            /argon/-->
-                                            <div class="col-md-10">
-                                                <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Name" value="Name">
-                                            </div>
-
-                                        </th>
-                                        <td>
-                                            <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                            <div class="col-md-6">
-                                                <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Quantity" value="2">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Price" value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <i class="fas fa-check-square"></i>
-                                            <i class="fas fa-times-circle">
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <i class="far fa-plus-square"></i>  Add another line
-                                        </th>
                                     </tr>
 
 
@@ -205,17 +173,25 @@
 
 
                         <!-- end of main content-->
+                        <div class="col-lg-6 add_cont">
+                            <i class="fas fa-plus"></i>
+                            <a href="#">Add another line</a>
+                        </div>
 
 
 
                         <hr class="my-4" />
                         <!-- Save -->
                         <div class="col text-left">
-                            <a href="#" class="btn btn-md btn-primary">Save</a>
-                        </div>
+                        <a href="#" class="btn btn-md btn-primary save_button">Save</a>
+                        <a href="#" class="btn btn-md btn-info cancel_button">Cancel</a>
+
+                </div>
 
 
-                    </form>
+
+
+                </form>
                 </div>
 
                 <!-- end of main content-->

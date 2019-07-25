@@ -37,12 +37,18 @@
                                                 <h6 class="heading-small text-muted mb-4">User information</h6> -->
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-8">
+                                <div class="col-lg-6">
                                     <div class="form-group">
 
                                                 <label class="form-control-label" for="input-username">Vendor Name</label>
-                                                <div class="input-group-text">Vendor Name  <i class="fas fa-search"></i></div>
+                                                <div class="input-group-text vendor">Vendor Name  <i class="fas fa-chevron-down text-right"></i>
+                                                    <div class="input-group">
+
+                                                        <button type="submit" class="btn btn-primary search1"><span class=search" aria-hidden="true"><i class="fas fa-search"></i></span></button>
+                                                    </div>
+                                                </div>
                                     </div>
+
 
                                 </div>
                                 <div class="col-lg-8">

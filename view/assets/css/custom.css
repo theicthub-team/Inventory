@@ -139,3 +139,51 @@ body{
 .brand{
     margin-left:210px;
 }
+/*new purchase start*/
+.customer{
+    margin-left: 30px;
+    padding: 15px;
+    /*color:#0368FF;*/
+}
+.customer_title, .organization_title,.vendor_title {
+    margin-left: 10px;
+    /*color:#0368FF;*/
+}
+.radio{
+    background-color:#0368FF;
+}
+.save_button{
+    background-color: #0368FF;
+    color:#fff;
+}
+.save_button:hover{
+    background-color: #ffffff;
+    color:#000000;
+}
+.cancel_button{
+    background-color: #fff;
+    color:black;
+    /*margin-top: 20px;*/
+}
+.cancel_button:hover{
+    background-color: #0368FF;
+    color:#fff;
+}
+.search1{
+    margin-left:45px;
+    background-color: #A1A1A1;
+    color:#ffffff;
+
+
+}
+
+/* padding-left: 23px; */
+.fa-chevron-down{
+    margin-left: 230px;
+    /*padding: px;*/
+    padding-right: 10px;
+}
+.vendor{
+    height: 51px;
+}
+/*new purchase end*/

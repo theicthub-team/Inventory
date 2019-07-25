@@ -30,7 +30,9 @@
 
                     <form>
                         <!--                        Contact Type-->
-                        <h6 class="heading-small text-muted mb-4 ">Contact Type</h6>
+                        Contact Type
+                        <label class="customer"><input type="radio" name="optradio" checked><span class="customer_title">Customer</span></label>
+                        <label class="Vendor"><input type="radio" name="optradio" checked><span class="vendor_title">Vendor</label>
 
                         <hr class="my-4" />
                         <h6 class="heading-small text-muted mb-4">User information</h6>
@@ -108,11 +110,14 @@
                         <hr class="my-4" />
                         <!-- Save -->
                         <div class="col text-left">
-                            <a href="LayoutAllContact.php" class="btn btn-md btn-primary">Add Contact</a>
-                        </div>
+                        <a href="#" class="btn btn-md btn-primary save_button">Save</a>
+                        <a href="#" class="btn btn-md btn-info cancel_button">Cancel</a>
+
+                </div>
 
 
-                    </form>
+
+                </form>
                 </div>
 
                 <!-- end of main content-->
