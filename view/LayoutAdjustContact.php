@@ -57,7 +57,7 @@
                                             <thead class="thead-light">
                                             <tr>
                                                 <th scope="col">Check</th>
-                                                <th scope="col">Name</th>
+                                                <th scope="col">Name<br>Company Name</th>
 
 
                                             </tr>
@@ -86,7 +86,8 @@
                                                         <label class="custom-control-label" for="customCheck2"></label>
                                                     </div>
                                                 <th scope="row">
-                                                    <a href="#">Muzahidul Islam</a>
+                                                    <a href="#">Muzahidul Islam</a><br>
+                                                    Samsung
                                                 </th>
 
                                             </tr>
@@ -98,7 +99,8 @@
                                                     </div>
                                                 </td>
                                                 <th scope="row">
-                                                    <a href="#">Munjurina Azam Ema</a>
+                                                    <a href="#">Munjurina Azam Ema</a><br>
+                                                    City Bank
                                                 </th>
 
 
@@ -116,7 +118,23 @@
                                     <!-- main content here -->
                                     <div class="card shadow">
                                         <div class="card-header border-0">
-                                            <h3 class="mb-2 font-weight-bold text-uppercase">New Contact</h3>
+                                            <div class="row align-items-center">
+                                                <div class="col">
+                                                    <h3 class="mb-0">Contact Preview</h3>
+                                                </div>
+                                                <div class="col text-right">
+                                                    <a href="layoutNewContact.php" class="btn btn-sm btn-primary">Adjust Contact</a>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="btn btn-sm btn-icon-only text-light border-primary" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="fas fa-ellipsis-v"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                                        <a class="dropdown-item" href="#">Clone</a>
+                                                        <a class="dropdown-item" href="#">Adjust Payment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
 
                                     </div>
@@ -215,6 +233,7 @@
                                 </div>
                             </div>
                         </div>
+
 
                     </div>
                 </div

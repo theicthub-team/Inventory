@@ -46,6 +46,7 @@
                                                     <a class="dropdown-item" href="#">Import Sales Order</a>
                                                     <a class="dropdown-item" href="#">Export Sales Order</a>
                                                     <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item text-blue" href="#">Mark As Returned</a>
                                                     <a class="dropdown-item text-warning" href="#">Delete</a>
                                                 </div>
                                             </div>
@@ -133,6 +134,8 @@
                                                         <a class="dropdown-item" href="#">Clone</a>
                                                         <a class="dropdown-item" href="#">Cancel Order</a>
                                                         <a class="dropdown-item" href="#">Adjust Payment</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-blue" href="#">Mark As Returned</a>
                                                     </div>
                                                 </div>
                                             </div>
