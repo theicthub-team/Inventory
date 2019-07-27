@@ -314,9 +314,10 @@
                                 </div>
                                 <!-- Save -->
                                 <div class="col text-left">
-                                    <a href="#" class="btn btn-md btn-primary sales_button">Save</a>
-                                </div>
+                                    <a href="#" class="btn btn-md btn-primary save_button">Save</a>
+                                    <a href="#" class="btn btn-md btn-info cancel_button">Cancel</a>
 
+                                </div>
 
                     </form>
                 </div>

@@ -37,21 +37,26 @@
                                                 <h6 class="heading-small text-muted mb-4">User information</h6> -->
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-8">
+                                <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label class="form-control-label"  for="input-username">Vendor Name </label>
-                                        <i class="fas fa-search"></i>
-                                        <input type="text" id="input-username"
-                                               class="form-control form-control-alternative" placeholder="Vendor Name"
-                                               value="Vendor Name">
 
+                                                <label class="form-control-label" for="input-username">Vendor Name</label>
+                                                <div class="input-group-text vendor">Vendor Name  <i class="fas fa-chevron-down text-right"></i>
+                                                    <div class="input-group">
 
+                                                        <button type="submit" class="btn btn-primary search1"><span class=search" aria-hidden="true"><i class="fas fa-search"></i></span></button>
+                                                    </div>
+                                                </div>
                                     </div>
+
 
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="form-group deliver">
-                                        Deliver To <i class="far fa-dot-circle"><span class="text">Customer</span></i><i class="fas fa-dot-circle"><span class="text">Organization</span></i>
+
+                                   Deliver to <label class="customer"><input type="radio" name="optradio" checked><span class="customer_title">Customer</span></label>
+                                              <label class="organization"><input type="radio" name="optradio" checked><span class="organization_title">Organization</label>
+
                                     </div>
 
                                 </div>
@@ -61,14 +66,14 @@
                                 <div class="col-lg-8">
                                     <div class="form-group">
                                         <label class="form-control-label" for="input-text-area">Warehouse Address</label>
-                                        <input type="addres" id="input-username"
+                                        <input type="text" id="input-username"
                                                class="form-control form-control-alternative" placeholder="Warehouse Address"
                                                value="Warehouse Address">
 
                                     </div>
                                     <div class="form-group">
                                         <label class="form-control-label" for="input-text-area"> New Warehouse Address</label>
-                                        <input type="addres" id="input-username"
+                                        <input type="text" id="input-username"
                                                class="form-control form-control-alternative" placeholder=" New Warehouse Address"
                                                value="New Warehouse Address">
 
@@ -81,9 +86,7 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-control-label" for="input-username">Refrence</label>
-                                        <input type="text" id="input-text"
-                                               class="form-control form-control-alternative" placeholder="Refrence"
-                                               value="Refrence">
+                                        <input type="text" id="input-text" class="form-control form-control-alternative" placeholder="Refrence" value="Refrence">
 
                                     </div>
 
@@ -134,11 +137,7 @@
 
                                 </div>
 
-
-
                             </div>
-
-
 
                             <div class="table-responsive">
                                 <!-- Projects table -->
@@ -155,48 +154,59 @@
                                     <tbody>
                                     <tr>
                                         <th scope="row">
-                                            <!--                                            /argon/-->
-                                            <div class="col-md-10">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Name"
-                                                       value="Name">
-                                            </div>
+                                            /argon/
 
-                                        </th>
                                         <td>
-                                            <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                            <div class="col-md-6">
-                                                <input type="number" id="input-number"
-                                                       class="form-control form-control-alternative"
-                                                       placeholder="Quantity" value="2">
-                                            </div>
+                                            2
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Tax"
-                                                       value="670">
-                                            </div>
+                                            670
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Rate"
-                                                       value="670">
-                                            </div>
+                                            600
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Amount"
-                                                       value="670">
-                                            </div>
+                                            16000
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            /argon/
+
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            670
+                                        </td>
+                                        <td>
+                                            600
+                                        </td>
+                                        <td>
+                                            16000
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            /argon/
+
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            670
+                                        </td>
+                                        <td>
+                                            600
+                                        </td>
+                                        <td>
+                                            16000
                                         </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <!--                                            /argon/-->
-                                            <div class="col-md-10">
+                                            <div class="col-md-12">
                                                 <input type="text" id="input-username"
                                                        class="form-control form-control-alternative" placeholder="Name"
                                                        value="Name">
@@ -214,103 +224,27 @@
                                         <td>
                                             <div class="col-md-6">
                                                 <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Tax"
+                                                       class="form-control form-control-alternative" placeholder="Price"
                                                        value="670">
                                             </div>
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Rate"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Amount"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <!--                                            /argon/-->
-                                            <div class="col-md-10">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Name"
-                                                       value="Name">
-                                            </div>
-
-                                        </th>
-                                        <td>
-                                            <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
                                             <div class="col-md-6">
                                                 <input type="number" id="input-number"
-                                                       class="form-control form-control-alternative"
-                                                       placeholder="Quantity" value="2">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Tax"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Rate"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Amount"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <!--                                            /argon/-->
-                                            <div class="col-md-10">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Name"
-                                                       value="Name">
+                                                       class="form-control form-control-alternative" placeholder="%"
+                                                       value="2%">
                                             </div>
 
-                                        </th>
+
+                                        </td>
                                         <td>
-                                            <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                            <div class="col-md-6">
+                                            <div class="col-md-8">
                                                 <input type="number" id="input-number"
-                                                       class="form-control form-control-alternative"
-                                                       placeholder="Quantity" value="2">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Tax"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Rate"
-                                                       value="670">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-6">
-                                                <input type="text" id="input-username"
                                                        class="form-control form-control-alternative" placeholder="Amount"
-                                                       value="670">
+                                                       value="0">
                                             </div>
+
+
                                         </td>
                                     </tr>
                                     </tbody>
@@ -343,12 +277,12 @@
                                             Discount
 
 
-
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-1">
                                         <div class="form-group">
-                                            0.00
+                                            <input type="number" id="input-username"
+                                                   class="form-control form-control-alternative" placeholder="0">
                                         </div>
                                     </div>
                                 </div>
@@ -360,13 +294,21 @@
                                             Shipping
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-1">
                                         <div class="form-group">
-                                            0.00
+                                            <input type="number" id="input-username"
+                                                   class="form-control form-control-alternative" placeholder="0">
                                         </div>
                                     </div>
                                 </div>
-                                <hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <hr>
+                                    </div>
+                                </div>
+
 
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -391,9 +333,10 @@
                                             Payment
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-1">
                                         <div class="form-group">
-                                            0.00
+                                            <input type="number" id="input-username"
+                                                   class="form-control form-control-alternative" placeholder="12">
                                         </div>
                                     </div>
                                 </div>
@@ -416,10 +359,23 @@
                                 <!-- end of main content-->
 
 
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <hr>
+                                    </div>
+                                </div>
+
+                                <!-- end of main content-->
+
+
                                 <hr class="my-4"/>
                                 <!-- Save -->
                                 <div class="col text-left">
-                                    <a href="#" class="btn btn-md btn-primary sales_button">Save</a>
+                                    <a href="#" class="btn btn-md btn-primary save_button">Save</a>
+                                    <a href="#" class="btn btn-md btn-info cancel_button">Cancel</a>
+
                                 </div>
 
 

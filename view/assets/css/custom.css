@@ -129,14 +129,146 @@ body{
     padding-left: 0px;
     padding-right: 0px;
 }
+/*!*new item start*!*/
+/*.fa-plus-square{*/
+/*    font-size: 30px;*/
+/*    margin-top: 35px;*/
+/*}*/
+/*.fa-chevron-down {*/
+/*    margin-left:190px;*/
+/*}*/
+/*.brand{*/
+/*    margin-left:210px;*/
+/*}*/
+/*new purchase start*/
+.customer{
+    margin-left: 30px;
+    padding: 15px;
+    /*color:#0368FF;*/
+}
+.customer_title, .organization_title,.vendor_title {
+    margin-left: 10px;
+    /*color:#0368FF;*/
+}
+.radio{
+    background-color:#0368FF;
+}
+.save_button{
+    background-color: #0368FF;
+    color:#fff;
+}
+.save_button:hover{
+    background-color: #ffffff;
+    color:#000000;
+}
+.cancel_button{
+    background-color: #fff;
+    color:black;
+    /*margin-top: 20px;*/
+}
+.cancel_button:hover{
+    background-color: #0368FF;
+    color:#fff;
+}
+.search1{
+    margin-left:45px;
+    background-color: #A1A1A1;
+    color:#ffffff;
+
+
+}
+
+/* padding-left: 23px; */
+.fa-chevron-down{
+    margin-left: 230px;
+    /*padding: px;*/
+    padding-right: 10px;
+}
+.vendor{
+    height: 51px;
+}
+/*new purchase end*/
 /*new item start*/
-.fa-plus-square{
+.category_and_brand{
+    margin-left: 82px;
+    /*font-size:18px;*/
+    border:1px solid #a1a1a140;
+}
+.down1{
+    margin-left: 200px;
+}
+.square_item,.square_brand{
     font-size: 30px;
-    margin-top: 35px;
+
+    margin-left: 10px;
 }
-.fa-chevron-down {
-    margin-left:190px;
+.down_brand{
+    margin-left: 221px;
 }
+.category_item{
+    height:100px;
+}
+.addnew_cate{
+    margin-left: 200px;
+    margin-top: 20px;
+    /*height: 44px*/
+}
+.addnew_brand{
+    margin-left: 228px;
+    margin-top: 20px;
+}
+.cat_new{
+    color:#ffffff;
+    margin-right: 5px;
+}
+/*new item end*/
+/*shipping start*/
+.card{
+    /*margin-left:20px;*/
+    /*margin-top:20px;*/
+}
+.firstcard{
+    margin-left:20px;
+    margin-top:20px;
+    border: 1px solid #707070;
+}
+.shipping,.deliveredshipping{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.notshippedpackese,.shippedpackese,.deliveredpackese{
+    /*background-color:#CFD6E1;*/
+    color:black;
+    background-color: #CFD6E1;
+
+
+    /*margin-top: 20;*/
+    padding: 5px
+}
+.shippingmore{
+    color:black;
+}
+.art{
+    height:200px;
+}
+.card_content{
+    margin-top:40px;
+}
+.shippedpackese{
+    background-color: #DEE896;
+}
+.deliveredpackese{
+    background-color: #CFE1D2;
+}
+
+.deliveredshipping {
+    margin-left: 90px;
+
+
+}
+
+/*shipping end*/
+
 .brand{
     margin-left:210px;
 }
@@ -144,3 +276,4 @@ body{
     margin-right: 0px;
     margin-left: 0px;
 }
+
