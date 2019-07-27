@@ -35,7 +35,19 @@ class getUserTokenClass{
                                 'user_id' => $data['user_id'],
                                 'user_token_no' => $data['user_token_no'],
                                 'user_token_creation_time' => $data['user_token_creation_time'],
-                                'user_token_modification_time' => $data['user_token_modification_time']
+                                'user_token_modification_time' => $data['user_token_modification_time'],
+
+                                'user_id' => $data['user_id'],
+                                'user_Name' => $data['user_Name'],
+                                'user_PhoneNo' => $data['user_PhoneNo'],
+                                'user_Email' => $data['user_Email'],
+                                'user_Password' => $data['user_Password'],
+                                'user_Status' => $data['user_Status'],
+                                'user_creation_time' => $data['user_creation_time'],
+                                'user_modification_time' => $data['user_modification_time'],
+                                'user_designation_id' => $data['user_designation_id'],
+                                'user_type_id' => $data['user_type_id']
+
 
                             ));
                     }
