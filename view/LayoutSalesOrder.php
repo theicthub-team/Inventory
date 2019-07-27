@@ -29,18 +29,25 @@
                                 </div>
                                 <div class="col text-right">
                                     <a href="LayoutNewSalesOrder.php" class="btn btn-sm btn-primary">Add New</a>
+                                    <a href="LayoutAdjustSalesOrder.php" class="btn btn-sm btn-success">Preview</a>
                                 </div>
                                 <div class="dropdown">
                                     <a class="btn btn-sm btn-icon-only text-light border-primary" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <div class=" dropdown-header noti-title">
+                                            <h6 class="text-overflow m-0 text-uppercase text-muted">Sort By:</h6>
+                                        </div>
                                         <a class="dropdown-item" href="#">Created Time</a>
                                         <a class="dropdown-item" href="#">Last Modified Time</a>
                                         <a class="dropdown-item" href="#">Date</a>
                                         <a class="dropdown-item" href="#">Expected Shipment Date </a>
                                         <a class="dropdown-item" href="#">Import Sales Order</a>
                                         <a class="dropdown-item" href="#">Export Sales Order</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item text-blue" href="#">Mark As Returned</a>
+                                        <a class="dropdown-item text-warning" href="#">Delete</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,19 +57,26 @@
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                 <tr>
-                                    <th scope="col">Date</th>
+                                    <th scope="col">Select</th>
                                     <th scope="col">Sales Order</th>
-                                    <th scope="col">Reference</th>
-                                    <th scope="col">Customer Name</th>
-                                    <th scope="col">Invoice</th>
-                                    <th scope="col">History</th>
+                                    <th scope="col">Packaged</th>
+                                    <th scope="col">Shipped</th>
+                                    <th scope="col">Delivered</th>
+                                    <th scope="col">Action</th>
+                                    <th scope="col">Expected Date</th>
                                     <th scope="col">Amount</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1" >
+                                            <label class="custom-control-label" for="customCheck1"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -71,13 +85,13 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
@@ -85,8 +99,14 @@
 
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2" >
+                                            <label class="custom-control-label" for="customCheck2"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -95,21 +115,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck3" >
+                                            <label class="custom-control-label" for="customCheck3"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -118,21 +144,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck4" >
+                                            <label class="custom-control-label" for="customCheck4"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -141,21 +173,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck5" >
+                                            <label class="custom-control-label" for="customCheck5"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -164,21 +202,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck6" >
+                                            <label class="custom-control-label" for="customCheck6"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -187,21 +231,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck7" >
+                                            <label class="custom-control-label" for="customCheck7"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -210,21 +260,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck8" >
+                                            <label class="custom-control-label" for="customCheck8"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -233,21 +289,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck9" >
+                                            <label class="custom-control-label" for="customCheck9"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -256,21 +318,27 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck10" >
+                                            <label class="custom-control-label" for="customCheck10"></label>
+                                        </div>
+                                    </td>
                                     <th scope="row">
-                                        12 July 2019
+                                        M007FKU
                                     </th>
                                     <td>
                                         M007FKU
@@ -279,128 +347,13 @@
                                         Regular
                                     </td>
                                     <td>
-                                        John Wick
+                                        Weekly
                                     </td>
                                     <td>
-                                        IN0Y978
+                                        Return
                                     </td>
                                     <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        75040
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        12 July 2019
-                                    </th>
-                                    <td>
-                                        M007FKU
-                                    </td>
-                                    <td>
-                                        Regular
-                                    </td>
-                                    <td>
-                                        John Wick
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        75040
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        12 July 2019
-                                    </th>
-                                    <td>
-                                        M007FKU
-                                    </td>
-                                    <td>
-                                        Regular
-                                    </td>
-                                    <td>
-                                        John Wick
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        75040
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        12 July 2019
-                                    </th>
-                                    <td>
-                                        M007FKU
-                                    </td>
-                                    <td>
-                                        Regular
-                                    </td>
-                                    <td>
-                                        John Wick
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        75040
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        12 July 2019
-                                    </th>
-                                    <td>
-                                        M007FKU
-                                    </td>
-                                    <td>
-                                        Regular
-                                    </td>
-                                    <td>
-                                        John Wick
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        75040
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        12 July 2019
-                                    </th>
-                                    <td>
-                                        M007FKU
-                                    </td>
-                                    <td>
-                                        Regular
-                                    </td>
-                                    <td>
-                                        John Wick
-                                    </td>
-                                    <td>
-                                        IN0Y978
-                                    </td>
-                                    <td>
-                                        IN0Y978
+                                        30 July 2019
                                     </td>
                                     <td>
                                         75040

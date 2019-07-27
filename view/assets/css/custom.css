@@ -122,7 +122,8 @@ body{
     padding-right: 1px;
 }
 .com-left{
-    padding-left: 1px;
+    padding-left: 18px;
+
 }
 .com{
     padding-left: 0px;
@@ -265,4 +266,14 @@ body{
 
 
 }
+
 /*shipping end*/
+
+.brand{
+    margin-left:210px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+

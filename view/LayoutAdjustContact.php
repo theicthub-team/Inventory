@@ -28,7 +28,7 @@
                                     <div class="card-header border-0">
                                         <div class="row align-items-center">
                                             <div class="col">
-                                                <h3 class="mb-2">Stock List</h3>
+                                                <h3 class="mb-2">Contact List</h3>
                                             </div>
 
                                             <div class="dropdown">
@@ -56,9 +56,8 @@
                                         <table class="table align-items-center table-flush">
                                             <thead class="thead-light">
                                             <tr>
-                                                <th scope="col">Select</th>
-                                                <th scope="col">Item Name<br>SKU</th>
-
+                                                <th scope="col">Check</th>
+                                                <th scope="col">Name<br>Company Name</th>
 
 
                                             </tr>
@@ -72,9 +71,9 @@
                                                     </div>
                                                 </td>
                                                 <th scope="row">
-                                                    <a href="#">Nokia 8 Plus</a><br>
+                                                    <a href="#">Sadik Ahammed</a><br>
 
-                                                    CP098730
+                                                    The ICT Hub
                                                 </th>
 
 
@@ -87,8 +86,8 @@
                                                         <label class="custom-control-label" for="customCheck2"></label>
                                                     </div>
                                                 <th scope="row">
-                                                    <a href="#">LG Refrigerator </a><br>
-                                                    HA095038
+                                                    <a href="#">Muzahidul Islam</a><br>
+                                                    Samsung
                                                 </th>
 
                                             </tr>
@@ -100,8 +99,8 @@
                                                     </div>
                                                 </td>
                                                 <th scope="row">
-                                                    <a href="#">General AC</a><br>
-                                                    HA095843
+                                                    <a href="#">Munjurina Azam Ema</a><br>
+                                                    City Bank
                                                 </th>
 
 
@@ -116,14 +115,15 @@
                         <div class="col-md-8 com-left">
                             <div class="row box_container">
                                 <div class="col">
+                                    <!-- main content here -->
                                     <div class="card shadow">
                                         <div class="card-header border-0">
                                             <div class="row align-items-center">
                                                 <div class="col">
-                                                    <h3 class="mb-0">Stock Preview</h3>
+                                                    <h3 class="mb-0">Contact Preview</h3>
                                                 </div>
                                                 <div class="col text-right">
-                                                    <a href="LayoutNewStock.php" class="btn btn-sm btn-primary">Adjust Stock</a>
+                                                    <a href="layoutNewContact.php" class="btn btn-sm btn-primary">Adjust Contact</a>
                                                 </div>
                                                 <div class="dropdown">
                                                     <a class="btn btn-sm btn-icon-only text-light border-primary" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -131,8 +131,7 @@
                                                     </a>
                                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                                         <a class="dropdown-item" href="#">Clone</a>
-                                                        <a class="dropdown-item" href="#">Add in a Group</a>
-                                                        <a class="dropdown-item" href="#">Mark As Sold Out</a>
+                                                        <a class="dropdown-item" href="#">Adjust Payment</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -143,148 +142,86 @@
                                     <div class="card-body">
 
                                         <form>
-                                            <!--                        New Stock Start -->
+                                            <!--                        Contact Type-->
+                                            <h6 class="heading-small text-muted mb-4 ">Contact Type</h6>
 
-                                            <!--
-                                                                    <hr class="my-4" />
-                                                                    <h6 class="heading-small text-muted mb-4">User information</h6> -->
+                                            <hr class="my-4" />
+                                            <h6 class="heading-small text-muted mb-4">User information</h6>
                                             <div class="pl-lg-4">
                                                 <div class="row">
-                                                    <div class="col-lg-8">
+                                                    <div class="col-lg-6">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-username">Product Name</label>
-                                                            <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Product Name" value="Product Name">
-
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 square">
-                                                        <div class="form-group">
-                                                            <div class="more">
-                                                                <i class="fas fa-plus-square"></i>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-text">Location</label>
-                                                            <input type="text" id="input-text" class="form-control form-control-alternative" placeholder="Location" value="Location">
+                                                            <label class="form-control-label" for="input-username">Full Name</label>
+                                                            <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="First name + Last Name" value="First name + Last Name">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4">
+                                                    <div class="col-lg-6">
                                                         <div class="form-group">
-
-                                                            <div class="stock_uploader text-center">
-                                                                <!--  <img src="assets/img/stockpic.jpg" alt="layoutNewStock"> -->
-                                                                <i class="fas fa-link"></i>
-                                                            </div>
+                                                            <label class="form-control-label" for="input-email">Email address</label>
+                                                            <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="user@example.com">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-lg-8">
+                                                    <div class="col-lg-6">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-text">SKU</label>
-                                                            <input type="text" id="input-text" class="form-control form-control-alternative" placeholder="SKU" value="SKU">
+                                                            <label class="form-control-label" for="input-first-name">Company Name</label>
+                                                            <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="Company Name" value="Company Name">
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-4">
+                                                    <div class="col-lg-6">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-number">Quantity</label>
-                                                            <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Quantity" value="Quantity">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-text">Unit</label>
-                                                            <input type="text" id="input-text" class="form-control form-control-alternative" placeholder="Unit" value="Unit">
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-number">Purchase Price</label>
-                                                            <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Purchase Price" value="Purchase Price">
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-number">Selling Price</label>
-                                                            <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Selling Price" value="Selling Price">
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-text">Re-Order Point</label>
-                                                            <input type="text" id="input-text" class="form-control form-control-alternative" placeholder="Re-Order Point" value="Re-Order Point">
+                                                            <label class="form-control-label" for="input-last-name">Contact Display Name</label>
+                                                            <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Contact Display Name" value="Contact Display Name">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <hr class="my-4">
+                                            <hr class="my-4" />
                                             <!-- Address -->
-                                            <h6 class="heading-small text-muted mb-4">Attribute</h6>
+                                            <h6 class="heading-small text-muted mb-4">Contact information</h6>
                                             <div class="pl-lg-4">
-
-
                                                 <div class="row">
-                                                    <div class="col-lg-4">
+                                                    <div class="col-md-12">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-number">Height</label>
-                                                            <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Height" value="Height">
+                                                            <label class="form-control-label" for="input-address">Address</label>
+                                                            <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" type="text">
                                                         </div>
-
                                                     </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-number">Weight</label>
-                                                            <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Weight" value="Weight">
-                                                        </div>
-
-                                                    </div>
-
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-lg-4">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-text">Color</label>
-                                                            <input type="text" id="input-text" class="form-control form-control-alternative" placeholder="Color" value="Color">
+                                                            <label class="form-control-label" for="input-city">City</label>
+                                                            <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="New York">
                                                         </div>
-
                                                     </div>
                                                     <div class="col-lg-4">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-number">Size</label>
-                                                            <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">
+                                                            <label class="form-control-label" for="input-country">Country</label>
+                                                            <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="United States">
                                                         </div>
-
                                                     </div>
-
+                                                    <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                            <label class="form-control-label" for="input-country">Postal code</label>
+                                                            <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code">
+                                                        </div>
+                                                    </div>
                                                 </div>
-
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label class="form-control-label" for="input-address">Contact Phone</label>
+                                                            <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="+8801XXXXXXXXX" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <hr class="my-4" />
                                             <!-- Save -->
                                             <div class="col text-left">
-                                                <a href="#" class="btn btn-md btn-primary">Save</a>
-                                                <a href="#" class="btn btn-md btn-primary">Cancel</a>
-
+                                                <a href="LayoutAllContact.php" class="btn btn-md btn-primary">Add Contact</a>
                                             </div>
 
 
@@ -297,11 +234,12 @@
                             </div>
                         </div>
 
+
                     </div>
                 </div
 
 
-                        <!-- end of main content-->
+                    <!-- end of main content-->
 
             </div>
         </div>

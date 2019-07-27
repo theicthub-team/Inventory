@@ -28,7 +28,7 @@
                                     <div class="card-header border-0">
                                         <div class="row align-items-center">
                                             <div class="col">
-                                                <h3 class="mb-2">Purchase Order List</h3>
+                                                <h3 class="mb-2">Sales Order List</h3>
                                             </div>
 
                                             <div class="dropdown">
@@ -46,6 +46,7 @@
                                                     <a class="dropdown-item" href="#">Import Sales Order</a>
                                                     <a class="dropdown-item" href="#">Export Sales Order</a>
                                                     <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item text-blue" href="#">Mark As Returned</a>
                                                     <a class="dropdown-item text-warning" href="#">Delete</a>
                                                 </div>
                                             </div>
@@ -57,7 +58,7 @@
                                             <thead class="thead-light">
                                             <tr>
                                                 <th scope="col">Check</th>
-                                                <th scope="col">Purchase Order<br>Amount </th>
+                                                <th scope="col">Sales Order<br>Amount </th>
 
 
                                             </tr>
@@ -71,9 +72,9 @@
                                                     </div>
                                                 </td>
                                                 <th scope="row">
-                                                    <a href="#">PO-093428</a><br>
+                                                    <a href="#">SO-093428</a><br>
 
-                                                    4500
+                                                   4500
                                                 </th>
 
 
@@ -86,7 +87,7 @@
                                                         <label class="custom-control-label" for="customCheck2"></label>
                                                     </div>
                                                 <th scope="row">
-                                                    <a href="#">PO-450235</a><br>
+                                                    <a href="#">SO-450235</a><br>
                                                     5000
                                                 </th>
 
@@ -99,7 +100,7 @@
                                                     </div>
                                                 </td>
                                                 <th scope="row">
-                                                    <a href="#">PO-684297</a><br>
+                                                    <a href="#">SO-684297</a><br>
                                                     15000
                                                 </th>
 
@@ -120,10 +121,10 @@
                                         <div class="card-header border-0">
                                             <div class="row align-items-center">
                                                 <div class="col">
-                                                    <h3 class="mb-0">Purchase Order Preview</h3>
+                                                    <h3 class="mb-0">Sales Order Preview</h3>
                                                 </div>
                                                 <div class="col text-right">
-                                                    <a href="LayoutNewPurchaseOrder.php" class="btn btn-sm btn-primary">Adjust Purchase Order</a>
+                                                    <a href="LayoutNewSalesOrder.php" class="btn btn-sm btn-primary">Adjust Sales Order</a>
                                                 </div>
                                                 <div class="dropdown">
                                                     <a class="btn btn-sm btn-icon-only text-light border-primary" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -133,6 +134,8 @@
                                                         <a class="dropdown-item" href="#">Clone</a>
                                                         <a class="dropdown-item" href="#">Cancel Order</a>
                                                         <a class="dropdown-item" href="#">Adjust Payment</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-blue" href="#">Mark As Returned</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -152,158 +155,128 @@
                                                 <div class="row">
                                                     <div class="col-lg-8">
                                                         <div class="form-group">
-                                                            <label class="form-control-label"  for="input-username">Vendor Name </label>
-                                                            <i class="fas fa-search"></i>
+                                                            <label class="form-control-label" for="input-username">Customer Name</label>
                                                             <input type="text" id="input-username"
-                                                                   class="form-control form-control-alternative" placeholder="Vendor Name"
-                                                                   value="Vendor Name">
-
+                                                                   class="form-control form-control-alternative" placeholder="Customer Name"
+                                                                   value="Customer Name">
 
                                                         </div>
 
                                                     </div>
                                                     <div class="col-lg-8">
-                                                        <div class="form-group deliver">
-                                                            Deliver To <i class="far fa-dot-circle"><span class="text">Customer</span></i><i class="fas fa-dot-circle"><span class="text">Organization</span></i>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-text-area">Warehouse Address</label>
-                                                            <input type="addres" id="input-username"
-                                                                   class="form-control form-control-alternative" placeholder="Warehouse Address"
-                                                                   value="Warehouse Address">
-
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label class="form-control-label" for="input-text-area"> New Warehouse Address</label>
-                                                            <input type="addres" id="input-username"
-                                                                   class="form-control form-control-alternative" placeholder=" New Warehouse Address"
-                                                                   value="New Warehouse Address">
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-4">
                                                         <div class="form-group">
                                                             <label class="form-control-label" for="input-username">Refrence</label>
-                                                            <input type="text" id="input-text"
+                                                            <input type="text" id="input-username"
                                                                    class="form-control form-control-alternative" placeholder="Refrence"
                                                                    value="Refrence">
 
                                                         </div>
 
                                                     </div>
-                                                    <div class="col-md-4">
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-4">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-username">Purchase Order</label>
-                                                            <input type="text" id="input-text"
-                                                                   class="form-control form-control-alternative" placeholder="Purchase Order"
-                                                                   value="Purchase Order">
+                                                            <label class="form-control-label" for="input-date">Sales Order Date</label>
+                                                            <input type="date" id="input-username"
+                                                                   class="form-control form-control-alternative" placeholder=Sales Order
+                                                                   Date"
+                                                            value="Starting Date">
+
+                                                        </div>
+
+
+                                                    </div>
+
+                                                    <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                            <label class="form-control-label" for="input-username">Expected Shipment
+                                                                Date</label>
+                                                            <input type="date" id="input-date"
+                                                                   class="form-control form-control-alternative" placeholder="Ending Date"
+                                                                   value="Ending Date">
+
+                                                        </div>
+
+
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="form-group">
+                                                            <label class="form-control-label" for="input-username">Order ID</label>
+                                                            <input type="price" id="input-price"
+                                                                   class="form-control form-control-alternative" placeholder="Order ID"
+                                                                   value="Order ID">
 
                                                         </div>
 
                                                     </div>
+
+
                                                 </div>
-
-
-
                                                 <div class="row">
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-date">Date</label>
-                                                            <input type="date" id="input-date"
-                                                                   class="form-control form-control-alternative" placeholder="Date"
-                                                                   value="Date">
+                                                            <label class="form-control-label" for="input-username">Purchase Price</label>
+                                                            <input type="price" id="input-price"
+                                                                   class="form-control form-control-alternative"
+                                                                   placeholder="Purchase Price"
+                                                                   value="Purchase Price">
 
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <label class="form-control-label" for="input-date">Expected Date</label>
-                                                            <input type="date" id="input-date"
-                                                                   class="form-control form-control-alternative" placeholder="Expected Date"
-                                                                   value="Expected Date">
+                                                            <label class="form-control-label" for="input-username">Selling Price</label>
+                                                            <input type="price" id="input-price"
+                                                                   class="form-control form-control-alternative" placeholder="Selling Price"
+                                                                   value="Selling Price">
 
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label"  for="input-username">Shipment Preferance </label>
-
-                                                            <input type="text" id="input-username"
-                                                                   class="form-control form-control-alternative" placeholder="Shipment Preferance"
-                                                                   value="Shipment Preferance">
-
-
-                                                        </div>
-
-                                                    </div>
-
 
 
                                                 </div>
 
 
-
-                                                <div class="table-responsive">
+                                                <div class="">
                                                     <!-- Projects table -->
                                                     <table class="table align-items-center table-flush">
                                                         <thead class="thead-light">
                                                         <tr>
-                                                            <th scope="col">Item Details</th>
+                                                            <th>Item Name</th>
                                                             <th scope="col">Quantity</th>
-                                                            <th scope="col">Rate</th>
-                                                            <th scope="col">Tax</th>
+                                                            <th scope="col">Price</th>
                                                             <th scope="col">Amount</th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
+
                                                         <tr>
                                                             <th scope="row">
                                                                 <!--                                            /argon/-->
                                                                 <div class="col-md-10">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Name"
-                                                                           value="Name">
+                                                                    demo
                                                                 </div>
 
                                                             </th>
                                                             <td>
                                                                 <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
                                                                 <div class="col-md-6">
-                                                                    <input type="number" id="input-number"
-                                                                           class="form-control form-control-alternative"
-                                                                           placeholder="Quantity" value="2">
+                                                                    <input type="number" id="input-username"
+                                                                           class="form-control form-control-alternative" placeholder="12"
+                                                                           value="Name">
                                                                 </div>
                                                             </td>
                                                             <td>
                                                                 <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Tax"
-                                                                           value="670">
+                                                                    12
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Rate"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Amount"
-                                                                           value="670">
-                                                                </div>
+                                                                <i class="fas fa-check-square"></i>
+                                                                <i class="fas fa-times-circle">
+
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -327,103 +300,14 @@
                                                             <td>
                                                                 <div class="col-md-6">
                                                                     <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Tax"
+                                                                           class="form-control form-control-alternative" placeholder="Price"
                                                                            value="670">
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Rate"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Amount"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">
-                                                                <!--                                            /argon/-->
-                                                                <div class="col-md-10">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Name"
-                                                                           value="Name">
-                                                                </div>
+                                                                <i class="fas fa-check-square"></i>
+                                                                <i class="fas fa-times-circle">
 
-                                                            </th>
-                                                            <td>
-                                                                <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                                                <div class="col-md-6">
-                                                                    <input type="number" id="input-number"
-                                                                           class="form-control form-control-alternative"
-                                                                           placeholder="Quantity" value="2">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Tax"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Rate"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Amount"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">
-                                                                <!--                                            /argon/-->
-                                                                <div class="col-md-10">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Name"
-                                                                           value="Name">
-                                                                </div>
-
-                                                            </th>
-                                                            <td>
-                                                                <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                                                <div class="col-md-6">
-                                                                    <input type="number" id="input-number"
-                                                                           class="form-control form-control-alternative"
-                                                                           placeholder="Quantity" value="2">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Tax"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Rate"
-                                                                           value="670">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="col-md-6">
-                                                                    <input type="text" id="input-username"
-                                                                           class="form-control form-control-alternative" placeholder="Amount"
-                                                                           value="670">
-                                                                </div>
                                                             </td>
                                                         </tr>
                                                         </tbody>
@@ -433,7 +317,7 @@
                                                     <div class="row">
                                                         <div class="col-lg-6 add_cont">
                                                             <i class="fas fa-plus"></i>
-                                                            <a href="#">Add another line  |  <i class="fas fa-plus"></i>  <span class="plus_text">Add another bulk</span></a>
+                                                            <a href="#">Add another line</a>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="form-group">
@@ -456,12 +340,12 @@
                                                                 Discount
 
 
-
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-2">
+                                                        <div class="col-lg-1">
                                                             <div class="form-group">
-                                                                0.00
+                                                                <input type="number" id="input-username"
+                                                                       class="form-control form-control-alternative" placeholder="12">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -473,13 +357,21 @@
                                                                 Shipping
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-2">
+                                                        <div class="col-lg-1">
                                                             <div class="form-group">
-                                                                0.00
+                                                                <input type="number" id="input-username"
+                                                                       class="form-control form-control-alternative" placeholder="12">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                        </div>
+                                                        <div class="col-lg-5">
+                                                            <hr>
+                                                        </div>
+                                                    </div>
+
 
                                                     <div class="row">
                                                         <div class="col-lg-6">
@@ -504,9 +396,10 @@
                                                                 Payment
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-2">
+                                                        <div class="col-lg-1">
                                                             <div class="form-group">
-                                                                0.00
+                                                                <input type="number" id="input-username"
+                                                                       class="form-control form-control-alternative" placeholder="12">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -529,7 +422,13 @@
                                                     <!-- end of main content-->
 
 
-                                                    <hr class="my-4"/>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                        </div>
+                                                        <div class="col-lg-5">
+                                                            <hr>
+                                                        </div>
+                                                    </div>
                                                     <!-- Save -->
                                                     <div class="col text-left">
                                                         <a href="#" class="btn btn-md btn-primary sales_button">Save</a>
@@ -549,7 +448,7 @@
                 </div
 
 
-                        <!-- end of main content-->
+                    <!-- end of main content-->
 
             </div>
         </div>
