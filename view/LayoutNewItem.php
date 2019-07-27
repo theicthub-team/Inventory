@@ -32,21 +32,24 @@
                         <!--                        Contact Type-->
 
 
-                        <div class="pl-lg-4">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="form-group">
-                                        <label class="form-control-label" for="input-text">Item Name</label>
-                                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Item Name" value="Item Name">
-                                    </div>
-                                </div>
-                            </div>
+
 
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-6">
                                     <div class="form-group">
+                                        <div class="form-group">
+                                        <label class="form-control-label" for="input-text">Item Name</label>
+                                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Item Name" value="Item Name">
+                                        </div>
+
                                         <label class="form-control-label" for="input-username">Category</label>
-                                        <div class="input-group-text vendor">Category<i class="fas fa-chevron-down down1 "></i> <i class="far fa-plus-square square_item"></i></div>
+                                        <select  class="form-control form-control-alternative ">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="mercedes">Mercedes</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                        <i class="far fa-plus-square square_item"></i>
 
                                         <label class="form-control-label" for="input-username">Brand</label>
                                         <div class="input-group-text vendor">Brand<i class="fas fa-chevron-down down_brand "></i> <i class="far fa-plus-square square_brand"></i></div>
@@ -132,7 +135,7 @@
                                 </div>
                             </div>
                         </div>
-                        <hr class="my-4" />
+
                         <!-- Save -->
                         <div class="col text-left">
                             <a href="#" class="btn btn-md btn-primary save_button">Save</a>

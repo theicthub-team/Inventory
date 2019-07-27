@@ -208,7 +208,7 @@
                                             <!--                                            /argon/-->
                                             <div class="col-md-12">
                                                 <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Name"
+                                                       class="form-control form-control-alternative from1" placeholder="Name"
                                                        value="Name">
                                             </div>
 
@@ -217,21 +217,21 @@
                                             <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
                                             <div class="col-md-6">
                                                 <input type="number" id="input-number"
-                                                       class="form-control form-control-alternative"
+                                                       class="form-control form-control-alternative from1"
                                                        placeholder="Quantity" value="2">
                                             </div>
                                         </td>
                                         <td>
                                             <div class="col-md-6">
                                                 <input type="text" id="input-username"
-                                                       class="form-control form-control-alternative" placeholder="Price"
+                                                       class="form-control form-control-alternative from1" placeholder="Price"
                                                        value="670">
                                             </div>
                                         </td>
                                         <td>
                                             <div class="col-md-6">
                                                 <input type="number" id="input-number"
-                                                       class="form-control form-control-alternative" placeholder="%"
+                                                       class="form-control form-control-alternative from1" placeholder="%"
                                                        value="2%">
                                             </div>
 
@@ -240,7 +240,7 @@
                                         <td>
                                             <div class="col-md-8">
                                                 <input type="number" id="input-number"
-                                                       class="form-control form-control-alternative" placeholder="Amount"
+                                                       class="form-control form-control-alternative from1" placeholder="Amount"
                                                        value="0">
                                             </div>
 
@@ -370,7 +370,7 @@
                                 <!-- end of main content-->
 
 
-                                <hr class="my-4"/>
+
                                 <!-- Save -->
                                 <div class="col text-left">
                                     <a href="#" class="btn btn-md btn-primary save_button">Save</a>

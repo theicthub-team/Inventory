@@ -142,7 +142,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="LayoutWareHouseList.php">
+                    <a class="nav-link" href="LayoutShipping.php">
                         <i class="ni ni-circle-08 text-pink"></i> Shipping
                     </a>
                 </li>

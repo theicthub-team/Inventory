@@ -20,7 +20,7 @@
 
         <div class="row box_container">
             <div class="col">
-                <div class="card shadow">
+                <div class="">
                     <div class="card-header border-0">
                         <h1 class="mb-0 font-weight-bold text-uppercase text-left paid">Paid</h1>
                         <div class="address">
