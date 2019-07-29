@@ -48,7 +48,7 @@
                                 <div class="col-lg-4 square">
                                     <div class="form-group">
                                         <div class="more">
-                                            <i class="fas fa-plus-square"></i>
+                                            <i class="far fa-plus-square product_square"></i>
                                         </div>
 
                                     </div>
@@ -146,8 +146,8 @@
 
                                 </div>
 
-                            </div>
-                            <div class="row">
+
+
                                 <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="form-control-label" for="input-text">Color</label>
@@ -162,6 +162,48 @@
                                     </div>
 
                                 </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-number">Edition</label>
+                                        <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-number">Model</label>
+                                        <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-number">Length</label>
+                                        <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-number">Material</label>
+                                        <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-number">Format</label>
+                                        <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">
+                                    </div>
+
+                                </div>
+<!--                                <div class="col-lg-3">-->
+<!--                                    <div class="form-group">-->
+<!--                                        <label class="form-control-label" for="input-number">Size</label>-->
+<!--                                        <input type="number" id="input-number" class="form-control form-control-alternative" placeholder="Size" value="Size">-->
+<!--                                    </div>-->
+<!---->
+<!--                                </div>-->
 
                             </div>
 
@@ -169,8 +211,8 @@
                         <hr class="my-4" />
                         <!-- Save -->
                         <div class="col text-left">
-                            <a href="#" class="btn btn-md btn-primary">Save</a>
-                            <a href="#" class="btn btn-md btn-primary">Cancel</a>
+                            <a href="#" class="btn btn-md btn-primary save_button">Save</a>
+                            <a href="#" class="btn btn-md btn-primary cancel_button">Cancel</a>
 
                         </div>
 

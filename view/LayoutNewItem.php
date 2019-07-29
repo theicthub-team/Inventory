@@ -41,18 +41,33 @@
                                         <label class="form-control-label" for="input-text">Item Name</label>
                                         <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Item Name" value="Item Name">
                                         </div>
+                                        <label class="form-control-label" for="input-username">Catagory</label>
 
-                                        <label class="form-control-label" for="input-username">Category</label>
-                                        <select  class="form-control form-control-alternative ">
-                                            <option value="volvo">Volvo</option>
-                                            <option value="saab">Saab</option>
-                                            <option value="mercedes">Mercedes</option>
-                                            <option value="audi">Audi</option>
-                                        </select>
-                                        <i class="far fa-plus-square square_item"></i>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-11">
 
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-1">
+                                                <i class="far fa-plus-square square_brand"></i>
+                                            </div>
+                                        </div>
                                         <label class="form-control-label" for="input-username">Brand</label>
-                                        <div class="input-group-text vendor">Brand<i class="fas fa-chevron-down down_brand "></i> <i class="far fa-plus-square square_brand"></i></div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-11">
+
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-1">
+                                                <i class="far fa-plus-square square_brand"></i>
+                                            </div>
+                                        </div>
                                         <label class="form-control-label " for="input-text">Tax</label>
                                         <input type="text" id="input-text" class="form-control form-control-alternative " placeholder="Tax">
 

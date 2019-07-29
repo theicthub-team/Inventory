@@ -36,32 +36,53 @@
                                                 <hr class="my-4" />
                                                 <h6 class="heading-small text-muted mb-4">User information</h6> -->
                         <div class="pl-lg-4">
+<!--                            <div class="row">-->
+<!--                                <div class="col-lg-6">-->
+<!--                                    <div class="form-group">-->
+<!---->
+<!--                                                <label class="form-control-label" for="input-username">Vendor Name</label>-->
+<!--                                                <div class="input-group-text vendor">Vendor Name  <i class="fas fa-chevron-down text-right"></i>-->
+<!--                                                    <div class="input-group">-->
+<!---->
+<!--                                                        <button type="submit" class="btn btn-primary search1"><span class=search" aria-hidden="true"><i class="fas fa-search"></i></span></button>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                    </div>-->
+<!---->
+<!---->
+<!--                                </div>-->
+<!--                                -->
+<!---->
+<!--                            </div>-->
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-
-                                                <label class="form-control-label" for="input-username">Vendor Name</label>
-                                                <div class="input-group-text vendor">Vendor Name  <i class="fas fa-chevron-down text-right"></i>
-                                                    <div class="input-group">
-
-                                                        <button type="submit" class="btn btn-primary search1"><span class=search" aria-hidden="true"><i class="fas fa-search"></i></span></button>
-                                                    </div>
-                                                </div>
-                                    </div>
-
-
-                                </div>
                                 <div class="col-lg-8">
-                                    <div class="form-group deliver">
-
-                                   Deliver to <label class="customer"><input type="radio" name="optradio" checked><span class="customer_title">Customer</span></label>
-                                              <label class="organization"><input type="radio" name="optradio" checked><span class="organization_title">Organization</label>
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-username">Vendor Name</label>
+                                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Vendor Name" value="Vendor Name">
 
                                     </div>
 
                                 </div>
+                                <div class="col-lg-4 square">
+                                    <div class="form-group">
+                                        <div class="more">
+                                            <a href="layoutNewContact.php"><i class="far fa-plus-square product_square"></i></a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
 
                             </div>
+
+                                <div class="form-group deliver">
+
+                                    Deliver to <label class="customer"><input type="radio" name="optradio" checked><span class="customer_title">Customer</span></label>
+                                    <label class="organization"><input type="radio" name="optradio" checked><span class="organization_title">Organization</label>
+
+                                </div>
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="form-group">
@@ -206,51 +227,43 @@
                                     <tr>
                                         <th scope="row">
                                             <!--                                            /argon/-->
-                                            <div class="col-md-12">
                                                 <input type="text" id="input-username"
                                                        class="form-control form-control-alternative from1" placeholder="Name"
                                                        value="Name">
-                                            </div>
+
 
                                         </th>
                                         <td>
                                             <!--                                            <label class="form-control-label" for="input-number">Quantity</label>-->
-                                            <div class="col-md-6">
                                                 <input type="number" id="input-number"
                                                        class="form-control form-control-alternative from1"
                                                        placeholder="Quantity" value="2">
-                                            </div>
+
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
                                                 <input type="text" id="input-username"
                                                        class="form-control form-control-alternative from1" placeholder="Price"
                                                        value="670">
-                                            </div>
                                         </td>
                                         <td>
-                                            <div class="col-md-6">
                                                 <input type="number" id="input-number"
                                                        class="form-control form-control-alternative from1" placeholder="%"
                                                        value="2%">
-                                            </div>
+
 
 
                                         </td>
                                         <td>
-                                            <div class="col-md-8">
                                                 <input type="number" id="input-number"
                                                        class="form-control form-control-alternative from1" placeholder="Amount"
                                                        value="0">
-                                            </div>
 
 
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
-                                <hr>
-
+                                <hr class="purDiv">
                                 <div class="row">
                                     <div class="col-lg-6 add_cont">
                                         <i class="fas fa-plus"></i>
@@ -305,7 +318,7 @@
                                     <div class="col-lg-6">
                                     </div>
                                     <div class="col-lg-5">
-                                        <hr>
+                                        <hr  class="purDiv">
                                     </div>
                                 </div>
 
@@ -336,7 +349,7 @@
                                     <div class="col-lg-1">
                                         <div class="form-group">
                                             <input type="number" id="input-username"
-                                                   class="form-control form-control-alternative" placeholder="12">
+                                                   class="form-control form-control-alternative" placeholder="0">
                                         </div>
                                     </div>
                                 </div>
@@ -363,7 +376,7 @@
                                     <div class="col-lg-6">
                                     </div>
                                     <div class="col-lg-5">
-                                        <hr>
+                                        <hr  class="purDiv">
                                     </div>
                                 </div>
 
